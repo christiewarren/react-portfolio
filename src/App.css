@@ -142,11 +142,32 @@ a.styled::before{
   transition: all 0.25s ease-out;
 }
 
+a.styled.xs::before{
+  position: absolute;
+  content: '';
+  width: 104%;
+  height: 28%;
+  top: 62%;
+  background: var(--medium-blue);
+  display: inline-block;
+  z-index: -1;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 20px;
+  transition: all 0.25s ease-out;
+}
+
 @media (hover: hover) {
   a.styled:hover::before{
     top: 0%;
     height: 110%;
     width: 115%
+  }
+
+  a.styled.xs:hover::before{
+    top: 10%;
+    height: 85%;
+    width: 110%
   }
 
   a.styled:hover .link-arrow{
@@ -163,6 +184,13 @@ a.styled::before{
 a.styled.sm{
   font-size: 1rem;
   display: inline-block;
+}
+
+a.styled.xs{
+  font-size: inherit;
+  font-weight: normal;
+  display: inline-block;
+  margin-left: 4px;
 }
 
 .link-arrow{

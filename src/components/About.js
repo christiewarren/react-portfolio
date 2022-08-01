@@ -25,7 +25,7 @@ export default function Search(){
          <div className='about-header-img'>
             <img src={'./assets/about/christie.jpg'} className='img-shadow' />
          </div>
-         <h6><b>Hey, happy to have you here!</b><br/><br/>I'm a UI/UX designer from Pennsylvania, currently working at <span className='highlight'>KiwiCo in Mountain View, CA.</span> I have a B.Des. in Graphic Design from Penn State, where I also grew my love for UX through the <a href='https://nittanyai.psu.edu/blog/nittany-ai-challenge-helps-design-christie-warrens-future/'>NittanyAI Challenge.</a><br/><br/>My favorite type of work poses complex UX challenges and improves everyday life for users. I aim to approach each project with ambition and curiosity, as well as a thoroughness that fosters smooth x-functional collaboration. I'd love to bring these qualities to a team that prioritizes people and process!
+         <h6><b>Hey, happy to have you here!</b><br/><br/>I'm a UI/UX designer from Pennsylvania, currently working at <span className='highlight'>KiwiCo in Mountain View, CA.</span> I have a B.Des. in Graphic Design from Penn State, where I also grew my love for UX through the <a href='https://nittanyai.psu.edu/blog/nittany-ai-challenge-helps-design-christie-warrens-future/' className='styled xs'>NittanyAI Challenge.</a><br/><br/>My favorite type of work poses complex UX challenges and improves everyday life for users. I aim to approach each project with ambition and curiosity, as well as a thoroughness that fosters smooth x-functional collaboration. I'd love to bring these qualities to a team that prioritizes people and process!
          <br/><br/>Now for the good stuff...
          </h6>
          
@@ -41,7 +41,7 @@ export default function Search(){
                   </div>
                </div>
             </ScrollAnimation>
-            <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={250}>
+            {/* <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={250}>
                <div className='sm-proj-wrap'>
                   <div className='about-me-thing'>
                      <img src={'./assets/home/learn-this-instead.png'} className='sm-proj-img'/>
@@ -49,7 +49,7 @@ export default function Search(){
                      <small className='sm-proj-description'>I mainly boulder, and really only inside, because real rocks are sharp, and I have wimpy skin.</small>
                   </div>
                </div>
-            </ScrollAnimation>
+            </ScrollAnimation> */}
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={500}>
                <div className='sm-proj-wrap love'>
                   <div className='about-me-thing'>
@@ -77,7 +77,7 @@ export default function Search(){
                   </div>
                </div>
             </ScrollAnimation>
-            <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={1250}>
+            {/* <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={1250}>
                <div className='sm-proj-wrap love'>
                   <div className='about-me-thing'>
                      <img src={'./assets/home/learn-this-instead.png'} className='sm-proj-img'/>
@@ -85,7 +85,7 @@ export default function Search(){
                      <small className='sm-proj-description'>@Wawa please expand to California.</small>
                   </div>
                </div>
-            </ScrollAnimation>
+            </ScrollAnimation> */}
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={1500}>
                <div className='sm-proj-wrap love'>
                   <div className='about-me-thing'>
