@@ -38,7 +38,7 @@ export default function NavRedesign(){
                </div>
             </div>
             <div className='proj-hero-wrap'>
-               <img src={'/assets/home/nav-redesign.png'} className='proj-hero'/>
+               <img src={'./assets/home/nav-redesign.png'} className='proj-hero'/>
             </div>
          </div>
          <main>
@@ -58,10 +58,10 @@ export default function NavRedesign(){
             </h6>
 
             <a href='https://www.kiwico.com/' target='blank' className='no-style-link'>
-               <button>see it live *<img src='/assets/search/arrow-right.svg' className='button-arrow'/></button>
+               <button>see it live *<img src='./assets/search/arrow-right.svg' className='button-arrow'/></button>
             </a>
             <small className='live-caption'>* Mobile nav &amp; footer are currently in development, and desktop footer is still being tested, so only desktop nav may be visible on the site.</small>
-            <Link to="/nav-redesign/#case-study"><a className='styled'>read the case study<img src='/assets/search/arrow-down-plain.svg' className='link-arrow'/></a></Link>
+            <Link to="/nav-redesign/#case-study"><a className='styled'>read the case study<img src='./assets/search/arrow-down-plain.svg' className='link-arrow'/></a></Link>
          </section>
          </ScrollAnimation>
 
@@ -74,11 +74,11 @@ export default function NavRedesign(){
                <p>KiwiCo's site navigation had last been updated in 2020, and the footer design had been largely the same since 2017 (though many more links were added since then).
                </p>
                <div className='img-wrap'>
-                  <img src='/assets/nav/old-mobile-navs.png'/>
+                  <img src='./assets/nav/old-mobile-navs.png'/>
                   <small className='subs-caption'>Former mobile navigation</small>
                </div>
                <div className='img-wrap'>
-                  <img src='/assets/nav/old-footers.png'/>
+                  <img src='./assets/nav/old-footers.png'/>
                   <small className='subs-caption'>Former mobile and desktop footers</small>
                </div>
                <p>With KiwiCo's now nine subscription lines, 160+ store products, and nearly 1,600 DIY and Blog articles, discoverability and ease of navigation are essential to the business's success and users' understanding of its (somewhat complex) offerings.</p>
@@ -92,7 +92,7 @@ export default function NavRedesign(){
             <div className='right'>
                <p>During my Sitewide Search project, I conducted extensive benchmarking, including navigation, since I placed Search in KiwiCo's navs. So, I was able to reuse much of that, but this time focused on hierarchy, navigation options (like Shop by Age), and organization.</p>
                <div className='img-wrap'>
-                  <img src='/assets/search/benchmarking.jpg'/>
+                  <img src='./assets/search/benchmarking.jpg'/>
                   <small>I mainly benchmarked against ecommerce sites like Lego and Target</small>
                </div>
                <br/><p>Also similar to Search, I read about best practices in Baymard Institute articles. Learnings from this are best summarized by this excerpt about hierarchy:</p>
@@ -127,7 +127,7 @@ export default function NavRedesign(){
                <p>This change guides users to KiwiCo's primary offerings. While the other links are still important, the majority of users will be looking for products, all of which can be found in these two accordions.</p>
                <p>I also changed the menu background from gray to white to create a more inviting, friendly feel and ensure the active states were accessible.</p>
                <div className='img-wrap'>
-                  <img src={'/assets/nav/menu-v1.jpg'} className='sm-img img-shadow'/>
+                  <img src={'./assets/nav/menu-v1.jpg'} className='sm-img img-shadow'/>
                   <small>V1 mock with no organizational changes yet</small>
                </div>
 
@@ -135,8 +135,8 @@ export default function NavRedesign(){
                <p>The visual design remained relatively consistent from my initial mocks, since I had thought through it thoroughly during benchmarking &amp; research, even starting during the Search project.</p>
                <p>However, as I got more comfortable, I started adding more visual interest to reflect our brand in certain areas:</p>
                <div className='multi-img-wrap img-wrap'>
-                  <img src={'/assets/nav/menu-v2-subs.jpg'} alt="similar courses panel" className='sm-img img-shadow two'/>
-                  <img src={'/assets/nav/menu-v2-age.jpg'} alt="suggested alternatives panel" className='sm-img img-shadow two'/>
+                  <img src={'./assets/nav/menu-v2-subs.jpg'} alt="similar courses panel" className='sm-img img-shadow two'/>
+                  <img src={'./assets/nav/menu-v2-age.jpg'} alt="suggested alternatives panel" className='sm-img img-shadow two'/>
                </div>
                <p>At this stage I also made adjustments to the spacing to ensure each link would have a large enough target area.</p>
 
@@ -159,9 +159,9 @@ export default function NavRedesign(){
                   <li>Added a My Account dropdown when the user is logged in</li>
                </ul>
                <div className='multi-img-wrap img-wrap'>
-                  <img src={'/assets/nav/menu-v3-age.jpg'} alt="similar courses panel" className='sm-img img-shadow three'/>
-                  <img src={'/assets/nav/menu-v3-interest.jpg'} alt="suggested alternatives panel" className='sm-img img-shadow three'/>
-                  <img src={'/assets/nav/menu-v3-account.jpg'} alt="suggested alternatives panel" className='sm-img img-shadow three'/>
+                  <img src={'./assets/nav/menu-v3-age.jpg'} alt="similar courses panel" className='sm-img img-shadow three'/>
+                  <img src={'./assets/nav/menu-v3-interest.jpg'} alt="suggested alternatives panel" className='sm-img img-shadow three'/>
+                  <img src={'./assets/nav/menu-v3-account.jpg'} alt="suggested alternatives panel" className='sm-img img-shadow three'/>
                </div>
 
                <h5><b>Desktop Nav:</b> V1</h5>
@@ -180,7 +180,7 @@ export default function NavRedesign(){
                   <li>Moved the Refer a Friend link ("Share KiwiCo, Get $10") to its own persistent banner below the nav</li>
                </ul>
                <div className='img-wrap'>
-                  <img src={'/assets/nav/desktop-nav-v1.jpg'} className='img-shadow'/>
+                  <img src={'./assets/nav/desktop-nav-v1.jpg'} className='img-shadow'/>
                   <small>Desktop nav V1</small>
                </div>
 
@@ -189,12 +189,12 @@ export default function NavRedesign(){
                <p>Initially, I didn't have plans to change much from the original dropdowns, but after exploring some more creative options in the mobile nav, I was inspired to go further on desktop.</p>
                <p>With more real estate, this seemed like a great opportunity for more visually engaging options for Subscriptions. I switched from a list to a grid, added a prominent photo for each one, and designed a hover state with a colored border and blue text.</p>
                <div className='img-wrap'>
-                  <img src={'/assets/nav/desktop-nav-v2-subs.jpg'} className='img-shadow'/>
+                  <img src={'./assets/nav/desktop-nav-v2-subs.jpg'} className='img-shadow'/>
                   <small>V1 mock with no organizational changes yet</small>
                </div>
                <p>I kept the Store and Schools &amp; Groups menus a bit simpler, but did incorporate the new styles for Shop by Age and Interest from the mobile menu.</p>
                <div className='img-wrap'>
-                  <img src={'/assets/nav/desktop-nav-v2-interest.jpg'} className='img-shadow'/>
+                  <img src={'./assets/nav/desktop-nav-v2-interest.jpg'} className='img-shadow'/>
                   <small>V1 mock with no organizational changes yet</small>
                </div>
 
@@ -215,18 +215,18 @@ export default function NavRedesign(){
                   <li>Reduced the nav's height a second time</li>
                </ul>
                <div className='img-wrap'>
-                  <img src={'/assets/nav/desktop-nav-v2-righthand.jpg'} className='img-shadow'/>
+                  <img src={'./assets/nav/desktop-nav-v2-righthand.jpg'} className='img-shadow'/>
                   <small>Consistency in the righthand part of the nav</small>
                </div>
 
                <h5><b>Footers:</b></h5>
                <p>When I first presented designs for the footer, I gave a lower lift option, in case the dev thought the ideal version wouldn't fit within the scope. But, luckily they were able to implement the ideal version with no issues!</p>
                <div className='img-wrap'>
-                  <img src={'/assets/nav/desktop-footer-v1-low-lift.jpg'} className='img-shadow'/>
+                  <img src={'./assets/nav/desktop-footer-v1-low-lift.jpg'} className='img-shadow'/>
                   <small>V1 mock with no organizational changes yet</small>
                </div>
                <div className='img-wrap'>
-                  <img src={'/assets/nav/desktop-footer-v1-high-lift.jpg'} className='img-shadow'/>
+                  <img src={'./assets/nav/desktop-footer-v1-high-lift.jpg'} className='img-shadow'/>
                   <small>V1 mock with no organizational changes yet</small>
                </div>
                <p>Similar to the mobile menu, the footers didn't undergo many changes during the design process. I did make some alterations later, once we started running A/B tests and had data to work with.</p>
@@ -242,10 +242,10 @@ export default function NavRedesign(){
                <h5>Footers</h5>
                <p>I coordinated with our marketing team and SEO specialist to remove 12 links from the footer. This allowed me to remove the "Featured Products" section and rename "Quick Links" to "Helpful Links" after moving some of these miscellaneous links to other sections. I also renamed "DIY Ideas" to "DIY, Blog, &amp; More" as a part of the push to make Blog more prominent.</p>
                <div className='img-wrap'>
-                  <img src={'/assets/nav/existing-links.jpg'}/>
+                  <img src={'./assets/nav/existing-links.jpg'}/>
                </div>
                <div className='img-wrap'>
-                  <img src={'/assets/nav/new-links.jpg'}/>
+                  <img src={'./assets/nav/new-links.jpg'}/>
                </div>
                <h5>Mobile Menu</h5>
                <p>Similarly to the footer, I was able to remove multiple links from the mobile menu. Here, I removed the lengthy "Quick Links" section entirely after dispersing remaining links to appropriate sections, like the new "Gifting" section. I also changed "DIY Ideas" to "DIY &amp; Blog," giving the Blog much more prominence than before.</p>
@@ -261,8 +261,8 @@ export default function NavRedesign(){
                <p>About a month after starting our mobile menu A/B test, my PM and I were seeing a mix of positive and negative numbers, but were specifically concerned about a 3.4% drop in visits to the subscription purchase widget (KiwiCo's main source of revenue).</p>
                <p>I proposed testing a variation with gray Subscription and Store accordion links instead of blue, to measure if the blue links were actually blending in with the nav.</p>
                <div className='multi-img-wrap img-wrap'>
-                  <img src={'/assets/nav/menu-variation1.jpg'} alt="similar courses panel" className='sm-img img-shadow two'/>
-                  <img src={'/assets/nav/menu-variation2.jpg'} alt="suggested alternatives panel" className='sm-img img-shadow two'/>
+                  <img src={'./assets/nav/menu-variation1.jpg'} alt="similar courses panel" className='sm-img img-shadow two'/>
+                  <img src={'./assets/nav/menu-variation2.jpg'} alt="suggested alternatives panel" className='sm-img img-shadow two'/>
                </div>
                <p>However, the gray links variation was marginally less successful, seeing a slight drop in purchase widget visits, as well as up to 1% drops in completed order, overall revenue, and Store visits.</p>
 
@@ -270,8 +270,8 @@ export default function NavRedesign(){
                <p>For our third variation, our CPO suggested adding the "Home" link back to the menu, to test whether the loss in purchase widget views was due to users getting lost somewhere on the site.</p>
                <p>I also proposed testing a fourth variation alongside this, which would include each subscription's tagline to make choosing a sub to explore less overwhelming.</p>
                <div className='multi-img-wrap img-wrap'>
-                  <img src={'/assets/nav/menu-variation3.jpg'} alt="similar courses panel" className='sm-img img-shadow two'/>
-                  <img src={'/assets/nav/menu-variation4.jpg'} alt="suggested alternatives panel" className='sm-img img-shadow two'/>
+                  <img src={'./assets/nav/menu-variation3.jpg'} alt="similar courses panel" className='sm-img img-shadow two'/>
+                  <img src={'./assets/nav/menu-variation4.jpg'} alt="suggested alternatives panel" className='sm-img img-shadow two'/>
                </div>
                <p>While neither variation was actually able to produce an increase in purchase widget views from the original, variation 4 (subscription taglines) saw a 2% increase from variation 1.</p>
                <p>Compared to variation 3, variation 4 also saw a 2% higher increase in overall revenue and completed orders — also the highest among all variations — at +5.2% and +5.8%, respectively.</p>
@@ -288,10 +288,10 @@ export default function NavRedesign(){
                <h5><b>Footers:</b> Variation 1</h5>
                <h6>Both desktop and mobile footers saw a drop of about 1% in email capture, purchase widget view, and completed order within the first 2 months of running the tests.</h6>
                <div className='img-wrap'>
-                  <img src={'/assets/nav/mobile-footer-variation1.png'} className='img-shadow sm-img'/>
+                  <img src={'./assets/nav/mobile-footer-variation1.png'} className='img-shadow sm-img'/>
                </div>
                <div className='img-wrap'>
-                  <img src={'/assets/nav/desktop-footer-variation1.jpg'} className='img-shadow'/>
+                  <img src={'./assets/nav/desktop-footer-variation1.jpg'} className='img-shadow'/>
                </div>
 
                <h5><b>Mobile Footer:</b> Variation 2</h5>
@@ -299,7 +299,7 @@ export default function NavRedesign(){
                <p>This change was a success, improving email capture to + 2.4% from the original.</p>
                <p>However, it still saw concerning drops in completed order and views for completed order and subscription pages.</p>
                <div className='img-wrap'>
-                  <img src={'/assets/nav/mobile-footer-variation2.png'} className='img-shadow sm-img'/>
+                  <img src={'./assets/nav/mobile-footer-variation2.png'} className='img-shadow sm-img'/>
                </div>
 
                <h5><b>Footers:</b> Variations 3 (mobile) &amp; 2 (desktop)</h5>
@@ -314,10 +314,10 @@ export default function NavRedesign(){
                   <li>Move email signup to the top on desktop</li>
                </ul>
                <div className='img-wrap'>
-                  <img src={'/assets/nav/mobile-footer-variation3.jpg'} className='img-shadow sm-img'/>
+                  <img src={'./assets/nav/mobile-footer-variation3.jpg'} className='img-shadow sm-img'/>
                </div>
                <div className='img-wrap'>
-                  <img src={'/assets/nav/desktop-footer-variation2.jpg'} className='img-shadow'/>
+                  <img src={'./assets/nav/desktop-footer-variation2.jpg'} className='img-shadow'/>
                </div>
 
                <br/><br/><b>Mobile Footer: Winning Variation</b>
@@ -336,7 +336,7 @@ export default function NavRedesign(){
                <h5><b>Desktop Footer:</b> Variation 3</h5>
                <h6>Still seeing concerning numbers, specifically with a decrease of 3% in emails captured, we recently decided to run a test emphasizing email sign up more prominently. (this test is currently running)</h6>
                <div className='img-wrap'>
-                  <img src={'/assets/nav/desktop-footer-variation3.jpg'} className='img-shadow'/>
+                  <img src={'./assets/nav/desktop-footer-variation3.jpg'} className='img-shadow'/>
                </div>
             </div>
          </section>
@@ -358,22 +358,22 @@ export default function NavRedesign(){
             >
                <SwiperSlide>
                   <div className='img-wrap'>
-                     <img src='/assets/nav/menu-variation1.jpg' className='carousel-img-m img-shadow'/>
+                     <img src='./assets/nav/menu-variation1.jpg' className='carousel-img-m img-shadow'/>
                   </div>
                </SwiperSlide>
                <SwiperSlide>
                   <div className='img-wrap'>
-                     <img src='/assets/nav/menu-variation4.jpg' className='carousel-img-m img-shadow'/>
+                     <img src='./assets/nav/menu-variation4.jpg' className='carousel-img-m img-shadow'/>
                   </div>
                </SwiperSlide>
                <SwiperSlide>
                   <div className='img-wrap'>
-                     <img src='/assets/nav/menu-v3-age.jpg' className='carousel-img-m img-shadow'/>
+                     <img src='./assets/nav/menu-v3-age.jpg' className='carousel-img-m img-shadow'/>
                   </div>
                </SwiperSlide>
                <SwiperSlide>
                   <div className='img-wrap'>
-                     <img src='/assets/nav/menu-v3-interest.jpg' className='carousel-img-m img-shadow'/>
+                     <img src='./assets/nav/menu-v3-interest.jpg' className='carousel-img-m img-shadow'/>
                   </div>
                </SwiperSlide>
             </Swiper>
@@ -392,12 +392,12 @@ export default function NavRedesign(){
                >
                   <SwiperSlide>
                      <div className='img-wrap'>
-                        <img src='/assets/nav/desktop-nav-v2-subs.jpg' className='carousel-img-d img-shadow'/>
+                        <img src='./assets/nav/desktop-nav-v2-subs.jpg' className='carousel-img-d img-shadow'/>
                      </div>
                   </SwiperSlide>
                   <SwiperSlide>
                      <div className='img-wrap'>
-                        <img src='/assets/nav/desktop-nav-v2-interest.jpg' className='carousel-img-d img-shadow'/>
+                        <img src='./assets/nav/desktop-nav-v2-interest.jpg' className='carousel-img-d img-shadow'/>
                      </div>
                   </SwiperSlide>
                </Swiper>
@@ -411,7 +411,7 @@ export default function NavRedesign(){
             <div className='right'>
                <h6>To ensure a smooth transition from design to dev, I made sure to be detailed and specific in how the nav should act at all screen sizes, etc.</h6>
                <div className='img-wrap'>
-                  <img src={'/assets/nav/handoff.png'} className='img-shadow'/>
+                  <img src={'./assets/nav/handoff.png'} className='img-shadow'/>
                </div>
             </div>
          </section>

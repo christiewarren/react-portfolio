@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* @font-face {
+@font-face {
   font-family: "lark-bold";
-  src: url("../../fonts/LarkBold/font.woff") format('woff');
-} */
+  src: url("../public/fonts/LarkBold/font.woff") format('woff');
+}
 
 :root {
   --navy: #030055;
@@ -367,7 +367,7 @@ a{
   font-family: 'DM Sans';
   line-height: 1.5; 
   margin-bottom: 2rem;
-  color: #F9F8F5;
+  font-weight: bold;
   animation: welcomeFadeIn 1.2s ease;
   color: var(--navy);
 }

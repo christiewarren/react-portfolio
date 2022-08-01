@@ -31,7 +31,7 @@ export default function Revu(){
                </div>
             </div>
             <div className='proj-hero-wrap'>
-               <img src={'/assets/revu/edit-quiz.jpg'} alt="LionPlanner final design" className='proj-hero'/>
+               <img src={'./assets/revu/edit-quiz.jpg'} alt="LionPlanner final design" className='proj-hero'/>
             </div>
          </div>
          <main>
@@ -42,7 +42,7 @@ export default function Revu(){
             <h6>I worked as a UI/UX designer along with a full stack developer to create a web app that generates multiple choice quizzes from a passage of text.
             <br/><br/>This was yet another extremely rewarding experience competing in the NittanyAI Challenge, and my teammate, Matt, and I were so grateful to receive first place.</h6>
 
-            <Link to="/revu/#case-study"><a className='styled'>read the case study<img src='/assets/search/arrow-down-plain.svg' className='link-arrow'/></a></Link>
+            <Link to="/revu/#case-study"><a className='styled'>read the case study<img src='./assets/search/arrow-down-plain.svg' className='link-arrow'/></a></Link>
          </section>
          </ScrollAnimation>
 
@@ -94,7 +94,7 @@ export default function Revu(){
                <p>The students I surveyed were nearly 70% more likely to complete an out of class reading if <span className="highlight">their professor can see whether they did it,</span> regardless of it being attached to a grade.</p>
                <p>Using this information, we decided to include functionality for teachers to <span className="highlight">keep track of their students' participation,</span> also allowing for <span className="highlight">more insight and value</span> on their end.</p>
                <div className='img-wrap'>
-                  <img src={'/assets/revu/student-incentive.jpg'} alt="graph of students' willingness to read outside of class" className='img-shadow'/>
+                  <img src={'./assets/revu/student-incentive.jpg'} alt="graph of students' willingness to read outside of class" className='img-shadow'/>
                </div>
             </div>
          </section>
@@ -151,28 +151,28 @@ export default function Revu(){
                <p>Teachers can easily paste a reading here from a textbook PDF, article etc., starting the <span className="highlight">fast, hands-off process.</span></p>
                <p>Each quiz has a title and class associated with it, and teachers can choose the number of distractors per question.</p>
                <div className="img-wrap">
-                  <img src={'/assets/revu/input.jpg'} alt="passage entry page" className='img-shadow'/>
+                  <img src={'./assets/revu/input.jpg'} alt="passage entry page" className='img-shadow'/>
                </div>
 
                <h5>Editable Questions</h5>
                <p>Easy editing is especially important, since Revu is powered by AI. This allows teachers to easily <span className="highlight">fix any small errors</span> that may occur while our algorithms are in development and is especially useful for the "Insight Seeker" to <span className="highlight">edit the quiz in depth.</span></p>
                <div className="img-wrap">
-                  <img src={'/assets/revu/editable-question.png'} alt="editable question" className='img-shadow sm-img'/>
+                  <img src={'./assets/revu/editable-question.png'} alt="editable question" className='img-shadow sm-img'/>
                </div>
                <div className="img-wrap">
-                  <img src={'/assets/revu/edit-question.png'} alt="question in edit mode" className='img-shadow sm-img'/>
+                  <img src={'./assets/revu/edit-question.png'} alt="question in edit mode" className='img-shadow sm-img'/>
                </div>
 
                <h5>"Where is this from?"</h5>
                <p>A teacher can click this to highlight the text where the question is from, allowing them to <span className='highlight'>ensure the question is relevant.</span></p>
                <div className="img-wrap">
-                  <img src={'/assets/revu/where-from.jpg'} alt="where is this from highlight" className='img-shadow'/>
+                  <img src={'./assets/revu/where-from.jpg'} alt="where is this from highlight" className='img-shadow'/>
                </div>
 
                <h5>Create New Questions</h5>
                <p>Teachers can add questions simply by filling in a blank template question. This is designed with the "Insight Seeker" in mind, allowing them to <span className="highlight">ask critical thinking questions</span> in addition to the recall-based ones Revu provides.</p>
                <div className="img-wrap">
-                  <img src={'/assets/revu/new-question.png'} alt="new question template" className='img-shadow sm-img'/>
+                  <img src={'./assets/revu/new-question.png'} alt="new question template" className='img-shadow sm-img'/>
                </div>
 
                <h5>Quiz Insights Dashboard</h5>
@@ -185,7 +185,7 @@ export default function Revu(){
                <p><b>D. Student View (Preview Mode)</b></p>
                <p>Shows the teacher what their quiz looks like from a student's perspective.</p>
                <div className="img-wrap">
-                  <img src={'/assets/revu/dashboard.jpg'} alt="insight dashboard" className='img-shadow'/>
+                  <img src={'./assets/revu/dashboard.jpg'} alt="insight dashboard" className='img-shadow'/>
                </div>
             </div>
          </section> 
@@ -198,7 +198,7 @@ export default function Revu(){
                <h5>Next Time...</h5>
                <p>The pivoting we did during this project emphasized to me the importance of user research, and how it can change the direction of a product. If I could redo this process, next time I would do more research sooner, to make sure the design is steered in the "right" direction from the start.</p>
                <div className='img-wrap'>
-                  <img src={'/assets/revu/pitch.jpg'} alt="Revu team" className='img-shadow sm-img'/>
+                  <img src={'./assets/revu/pitch.jpg'} alt="Revu team" className='img-shadow sm-img'/>
                   <small>Matt (the dev I worked with) and me after our final presentation of Revu.</small>
                </div> 
             </div>   

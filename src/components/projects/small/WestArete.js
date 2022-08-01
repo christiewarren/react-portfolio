@@ -32,7 +32,7 @@ export default function WestArete(){
                </div>
             </div>
             <div className='proj-hero-wrap'>
-               <img src={'/assets/home/lms.jpg'} className='proj-hero' alt="LMS final design"/>
+               <img src={'./assets/home/lms.jpg'} className='proj-hero' alt="LMS final design"/>
             </div>
          </div>
          <main>
@@ -41,7 +41,7 @@ export default function WestArete(){
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section id='tldr'>
             <h6>I designed a learning management system (LMS) to help students learn better based on their personal learning style and the research behind how to learn best. This project was part of my internship at West Arete in 2019.</h6>
-            <Link to="/west-arete/#case-study"><a className='styled'>read more<img src='/assets/search/arrow-down-plain.svg' className='link-arrow'/></a></Link>
+            <Link to="/west-arete/#case-study"><a className='styled'>read more<img src='./assets/search/arrow-down-plain.svg' className='link-arrow'/></a></Link>
          </section>
          </ScrollAnimation>
 
@@ -66,10 +66,10 @@ export default function WestArete(){
                <h5>LMS’s miss opportunities</h5>
                <p>College students rely heavily on LMS's for class resources, but these applications could also be used to reinforce positive learning habits.</p>
                <div className="img-wrap">
-                  <img src={'/assets/west-arete/canvas-course.jpg'} alt="Canvas module" className='img-shadow'/>
+                  <img src={'./assets/west-arete/canvas-course.jpg'} alt="Canvas module" className='img-shadow'/>
                </div>
                <div className="img-wrap">
-                  <img src={'/assets/west-arete/canvas-dash.jpg'} alt="Canvas courses" className='img-shadow'/>
+                  <img src={'./assets/west-arete/canvas-dash.jpg'} alt="Canvas courses" className='img-shadow'/>
                   <small>Typical LMS's fail to provide students with unique learning opportunities and serve more as file storage for professors.</small>
                </div>
                <h5>No clear progression</h5>
@@ -128,7 +128,7 @@ export default function WestArete(){
             <div className='right'>
                <h6>Working alongside Natalie (the PM) and our clients to create a scope and definition for this application was a major part of the project. Our clients came in with lots of concrete research and a broad idea of what the application could be, so we worked to hone in on the most feasible and impactful experience that best reflected their mission.</h6>
                <div className="img-wrap">
-                  <img src={'/assets/west-arete/wireframes.jpg'} alt="wireframe sketches" className='img-shadow'/>
+                  <img src={'./assets/west-arete/wireframes.jpg'} alt="wireframe sketches" className='img-shadow'/>
                </div>
 
                <h5>Dash Courses</h5>
@@ -136,28 +136,28 @@ export default function WestArete(){
                <p>These stats provide a <span className="highlight">simple, personalized interface</span> for the "Lost Learner" while giving the "Pro Learner" an <span className="highlight">overview of learning progression.</span>
                <br/><br/>Students can also click "Course Stats &amp; Progress" to learn about the details.</p>
                <div className="img-wrap">
-                  <img src={'/assets/west-arete/dashboard.jpg'} alt="LMS dashboard" className='img-shadow'/>
+                  <img src={'./assets/west-arete/dashboard.jpg'} alt="LMS dashboard" className='img-shadow'/>
                </div>
 
                <h5>Learning Skillsets</h5>
                <h6>Students are prompted to complete learning skillsets that provide them with the tools to learn better</h6>
                <p>This will guide the "Lost Learner" to <span className="highlight">become a better learner</span> and the "Pro Learner" can explore other skillsets to <span className="highlight">gain new learning tools.</span></p>
                <div className="img-wrap">
-                  <img src={'/assets/west-arete/questionnaire.jpg'} alt="learning skillset questionnaire" className='img-shadow'/>
+                  <img src={'./assets/west-arete/questionnaire.jpg'} alt="learning skillset questionnaire" className='img-shadow'/>
                </div>
 
                <h5>Course Concept Map</h5>
                <h6>A visualization of students' curricula, allowing for freedom in exploration of topics</h6>
                <p>The LMS allows for more self-directed learning aimed to <span className="highlight">make learning more enjoyable</span> for the "Lost Learner" and give the "Pro Learner" more <span className="highlight">learning independence.</span></p>
                <div className="img-wrap">
-                  <img src={'/assets/west-arete/course-map.jpg'} alt="course map" className='img-shadow'/>
+                  <img src={'./assets/west-arete/course-map.jpg'} alt="course map" className='img-shadow'/>
                </div>
 
                <h5>Quiz Summary</h5>
                <h6>A summary of questions a student "mastered" as well as which questions they answered correctly and incorrectly</h6>
                <p>When clicked, each question has a description of the answers. The main goal of this page is to help both learners to be <span className="highlight">actively involved in and informed about their learning process.</span></p>
                <div className="img-wrap">
-                  <img src={'/assets/west-arete/quiz-summary.jpg'} alt="quiz summary" className='img-shadow'/>
+                  <img src={'./assets/west-arete/quiz-summary.jpg'} alt="quiz summary" className='img-shadow'/>
                </div>
             </div>
          </section>
@@ -170,7 +170,7 @@ export default function WestArete(){
                <h5>A Different LMS</h5>
                <p>I often heard the feedback that the UI should look different from a traditional LMS. Executing this was a practice in knowing when to use familiar, established design patterns, and when we should stray from those (and more importantly why). The evolution of hifis demonstrates the progression from traditional LMS to a strategically unique design.</p>
                <div className="img-wrap">
-                  <img src={'/assets/west-arete/hifi-process.jpg'} alt="hifi design progression" className='img-shadow'/>
+                  <img src={'./assets/west-arete/hifi-process.jpg'} alt="hifi design progression" className='img-shadow'/>
                </div>
             </div>
          </section>

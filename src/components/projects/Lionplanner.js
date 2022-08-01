@@ -34,7 +34,7 @@ export default function Lionplanner(){
                </div>
             </div>
             <div className='proj-hero-wrap'>
-               <img src={'/assets/lionplanner/final.jpg'} alt="LionPlanner final design" className='proj-hero'/>
+               <img src={'./assets/lionplanner/final.jpg'} alt="LionPlanner final design" className='proj-hero'/>
             </div>
          </div>
          <main>
@@ -43,7 +43,7 @@ export default function Lionplanner(){
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
             <section id='tldr'>
                <h6>I worked as the sole designer on a team of front and backend developers to build a web application for students to plan their long-term (multi-year) college course schedules. The app generated interactive course plans for chosen major(s) and eliminated the risk of of missing requirements or prerequisites.<br/><br/>The largest design challenge with LionPlanner was consolidating the many scattered resources students need to consult during their planning process within the UI, while still making it easy to navigate.<br/><br/>We completed this project as a part of a 9-month long competition at Penn State called the NittanyAI Challenge. While our team ultimately didn't pursue this project after the competition, we were so excited to receive first place, and it was the project that inspired me to go into UX.</h6>
-               <Link to="/lionplanner/#case-study"><a className='styled'>read the case study<img src='/assets/search/arrow-down-plain.svg' className='link-arrow'/></a></Link>
+               <Link to="/lionplanner/#case-study"><a className='styled'>read the case study<img src='./assets/search/arrow-down-plain.svg' className='link-arrow'/></a></Link>
             </section>
             </ScrollAnimation>
 
@@ -55,7 +55,7 @@ export default function Lionplanner(){
                <div className='right'>
                   <p>The Nittany AI Challenge prompt was to build an application that uses AI to solve a problem in education. As students, we knew that planning which courses to take over a college career at Penn State is a <span className='highlight'>tedious and entirely manual process</span> involving <span className='highlight'>many scattered resources.</span></p>
                   <div className='img-wrap'>
-                     <img src='/assets/lionplanner/resources.jpg' alt="Planning resources"/>
+                     <img src='./assets/lionplanner/resources.jpg' alt="Planning resources"/>
                      <small className='subs-caption'>Some of the resources a student would need to use to plan their college courses</small>
                   </div>
                   <br/><p>We proposed LionPlanner: a solution that would automate the course plan up front by fulfilling all requirements for a chosen major. The app would then provide an interactive UI where students could add, remove, and reorder courses in their plan and view warnings for any missing requirements or prerequisites.</p>
@@ -71,7 +71,7 @@ export default function Lionplanner(){
                   <h5>Manual planning</h5>
                   <p>Students planning more than one semester ahead have to resort to using a spreadsheet or pen and paper to organize their plans, making this process unnecessarily time consuming.</p>
                   <div className="img-wrap">
-                     <img src={'/assets/lionplanner/sheet.png'} alt="Google sheet with courses"/>
+                     <img src={'./assets/lionplanner/sheet.png'} alt="Google sheet with courses"/>
                      <small>About <b>half</b> of a friend's course-planning spreadsheet</small>
                   </div>
                   <h5 className="feature">Scattered resources</h5>
@@ -146,31 +146,31 @@ export default function Lionplanner(){
                      >
                         <SwiperSlide>
                         <div className='img-wrap'>
-                           <img src='/assets/lionplanner/sketch.jpg' className='carousel-img-d img-shadow' alt="initial sketch"/>
+                           <img src='./assets/lionplanner/sketch.jpg' className='carousel-img-d img-shadow' alt="initial sketch"/>
                            <small className='slide-caption'>Initial sketch I drew in our early discussions of LionPlanner's functionality (beautiful, I know)</small>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide>
                         <div className='img-wrap'>
-                           <img src='/assets/lionplanner/wireframe.jpg' className='carousel-img-d img-shadow' alt="wireframe"/>
+                           <img src='./assets/lionplanner/wireframe.jpg' className='carousel-img-d img-shadow' alt="wireframe"/>
                            <small className='slide-caption'>A wireframe I made based on the sketch</small>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide>
                         <div className='img-wrap'>
-                           <img src='/assets/lionplanner/lowfi.jpg' className='carousel-img-d img-shadow' alt="lofi design V1"/>
+                           <img src='./assets/lionplanner/lowfi.jpg' className='carousel-img-d img-shadow' alt="lofi design V1"/>
                            <small className='slide-caption'>Color applied to the wireframe—the final design before I started working in HTML/CSS</small>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide>
                         <div className='img-wrap'>
-                           <img src='/assets/lionplanner/lowfi2.png' className='carousel-img-d img-shadow' alt="lofi design v2"/>
+                           <img src='./assets/lionplanner/lowfi2.png' className='carousel-img-d img-shadow' alt="lofi design v2"/>
                            <small className='slide-caption'>The first HTML/CSS prototype of our app and, I believe, my first time writing HTML/CSS</small>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide>
                         <div className='img-wrap'>
-                           <img src='/assets/lionplanner/final.jpg' className='carousel-img-d img-shadow' alt="final design"/>
+                           <img src='./assets/lionplanner/final.jpg' className='carousel-img-d img-shadow' alt="final design"/>
                            <small className='slide-caption'>Our final MVP that we presented at the end of the challenge; many things changed from the initial sketch, but some stayed surprisingly the same. More on that below.</small>
                         </div>
                      </SwiperSlide>
@@ -187,11 +187,11 @@ export default function Lionplanner(){
                   <p>When designing the semesters, I took visual inspiration from the university-provided recommended course plans to increase familiarity in the UI. This basic design was consistent from the very first sketch, because a low learning curve was one of our priorities.
                   <br/><br/>Each course is also drag-and-droppable within and between semesters, making experimenting with different orders etc. very simple.</p>
                   <div className="img-wrap">
-                     <img src={'/assets/lionplanner/rap-semester.jpg'} alt="reccommended academic plan semester" className='img-shadow'/>
+                     <img src={'./assets/lionplanner/rap-semester.jpg'} alt="reccommended academic plan semester" className='img-shadow'/>
                      <small>Semesters in the recommended course plan</small>
                   </div>
                   <div className="img-wrap back-to-back-img">
-                     <img src={'/assets/lionplanner/semester.jpg'} alt="LionPlanner semester" className='sm-img img-shadow'/>
+                     <img src={'./assets/lionplanner/semester.jpg'} alt="LionPlanner semester" className='sm-img img-shadow'/>
                      <small>LionPlanner semester</small>
                   </div>
 
@@ -204,7 +204,7 @@ export default function Lionplanner(){
                   <p>As part of the effort to consolidate resources, we included a feature to search Penn State's entire course catalog. Students can view the descriptions of any course and what requirement it satisfied. This feature would be especially helpful for the "In Depth Planner" to find courses outside of their major.</p>
                   <p>Like any other courses that appear in this sidebar, these can be <span className='highlight'>dragged and dropped</span> into the course plan.</p>
                   <div className='img-wrap'>
-                     <img src={'/assets/lionplanner/search.jpg'} alt="search panel" className='img-shadow'/>
+                     <img src={'./assets/lionplanner/search.jpg'} alt="search panel" className='img-shadow'/>
                      <small>Search the full course catalog and view course descriptions</small>
                   </div>
                   
@@ -216,7 +216,7 @@ export default function Lionplanner(){
                   <p>If a student is missing prerequisites for any course in the plan, the course is highlighted in red with a tooltip of the missing prereq—a crucial feature to <span className='highlight'>put them at ease as they explore options</span>.</p>
 
                   <div className="img-wrap">
-                     <img src={'/assets/lionplanner/still-needed.jpg'} alt="still needed panel" className='img-shadow'/>
+                     <img src={'./assets/lionplanner/still-needed.jpg'} alt="still needed panel" className='img-shadow'/>
                      <small>"Still Needed" course (left) and highlighted missing prerequisite (right)</small>
                   </div>
 
@@ -224,8 +224,8 @@ export default function Lionplanner(){
                   <p>We included Similar Courses for students like the "In Depth Planner" who want to <span className='highlight'>add classes based on their interest,</span> regardless of whether they meet a requirement.</p>
                   <p>Suggested Alternatives are courses that meet the same requirements as the selected course and can be swapped with a simple click. These are great for students like the "Degree Seeker," who want to <span className='highlight'>know their options within major requirements.</span></p>
                   <div className='multi-img-wrap img-wrap'>
-                     <img src={'/assets/lionplanner/similar-courses.jpg'} alt="similar courses panel" className='sm-img img-shadow two'/>
-                     <img src={'/assets/lionplanner/suggested-alts.jpg'} alt="suggested alternatives panel" className='sm-img img-shadow two'/>
+                     <img src={'./assets/lionplanner/similar-courses.jpg'} alt="similar courses panel" className='sm-img img-shadow two'/>
+                     <img src={'./assets/lionplanner/suggested-alts.jpg'} alt="suggested alternatives panel" className='sm-img img-shadow two'/>
                   </div>
 
                   <h5 className='feature'>Toolbar</h5>
@@ -234,7 +234,7 @@ export default function Lionplanner(){
                   <p>The abilities to undo/redo and save more than one plan encourages them to try multiple paths.</p>
                   <p>Finally, when they have a plan (or multiple) they're satisfied with, a student can export it as a PDF to take to their advisor for final approval. This was a necessary consideration to account for any flaws in LionPlanner's logic, especially considering the inconsistencies and significant complexity with some majors' requirements.</p>
                   <div className="img-wrap">
-                     <img src={'/assets/lionplanner/toolbar.jpg'} alt="toolbar" className='img-shadow'/>
+                     <img src={'./assets/lionplanner/toolbar.jpg'} alt="toolbar" className='img-shadow'/>
                      <small>I designed the toolbar to resemble ones students would be familiar with (like Google Docs or Sheets)</small>
                   </div>
                </div>
@@ -251,10 +251,10 @@ export default function Lionplanner(){
                   <h5>Impact</h5>
                   <p>When I'm asked at what point I became sure that I wanted to pursue UI &amp; UX design, I always point to LionPlanner. Not only was this project impactful for me because of its scale and how much I learned, but it also showed me the potential design &amp; tech have to help people. I truly loved the opportunity to help solve a real issue (even in a hypothetical setting) and hearing feedback of how much it would have made a difference in people's college experiences. This project is the perfect example of the type of work I love doing.</p>
                   <div className='img-wrap'>
-                        <img src={'/assets/lionplanner/pitch.jpg'} alt="LionPlanner team" className='img-shadow sm-img'/>
+                        <img src={'./assets/lionplanner/pitch.jpg'} alt="LionPlanner team" className='img-shadow sm-img'/>
                   </div>
                   <div className='img-wrap'>
-                     <img src={'/assets/lionplanner/group.jpg'} alt="LionPlanner team" className='img-shadow sm-img team-img'/>
+                     <img src={'./assets/lionplanner/group.jpg'} alt="LionPlanner team" className='img-shadow sm-img team-img'/>
                      <small>Our team during and after our final presentation</small>
                   </div>  
                </div>  
