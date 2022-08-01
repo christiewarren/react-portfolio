@@ -25,7 +25,7 @@ export default function Search(){
          <div className='about-header-img'>
             <img src={'./assets/about/christie.jpg'} className='img-shadow' />
          </div>
-         <h6><b>Hey, happy to have you here!</b><br/><br/>I'm a UI/UX designer from Pennsylvania, currently working at <span className='highlight'>KiwiCo in Mountain View, CA.</span> I have a B.Des. in Graphic Design from Penn State, where I also grew my love for UX through the <a href='https://nittanyai.psu.edu/blog/nittany-ai-challenge-helps-design-christie-warrens-future/' className='styled xs'>NittanyAI Challenge.</a><br/><br/>My favorite type of work poses complex UX challenges and improves everyday life for users. I aim to approach each project with ambition and curiosity, as well as a thoroughness that fosters smooth x-functional collaboration. I'd love to bring these qualities to a team that prioritizes people and process!
+         <h6><b>Hey, happy to have you here!</b><br/><br/>I'm a UI/UX designer from Pennsylvania, currently working at <span className='highlight'>KiwiCo in Mountain View, CA.</span> I have a B.Des. in Graphic Design from Penn State, where I also grew my love for UX through the <a href='https://nittanyai.psu.edu/blog/nittany-ai-challenge-helps-design-christie-warrens-future/' className='styled xs' target={'_blank'}>NittanyAI Challenge.</a><br/><br/>My favorite type of work poses complex UX challenges and improves everyday life for users. I aim to approach each project with ambition and curiosity, as well as a thoroughness that fosters smooth x-functional collaboration. I'd love to bring these qualities to a team that prioritizes people and process!
          <br/><br/>Now for the good stuff...
          </h6>
          

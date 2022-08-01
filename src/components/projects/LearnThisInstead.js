@@ -41,7 +41,7 @@ export default function LearnThisInstead(){
             <br/><br/>This was my college senior capstone project, taking place over a full semester. Our professor allowed us to propose our own project concepts, and I developed mine with the primary goal of improving my technical skills and the inspiration of my designer peers' animosity towards CSS.
             <br/><br/>I wasn't able to publish the extension in the scope of this course, but I'd love to do so eventually!
             </h6>
-            <a href='https://drive.google.com/file/d/1poGw-HAxlbl4DL8pXsgqqz8DDXeaw12s/view?usp=sharing' target='blank' className='no-style-link'>
+            <a href='https://vimeo.com/735474155' target='blank' className='no-style-link'>
                <button>watch the presentation (11 min)<img src='./assets/search/arrow-right.svg' className='button-arrow'/></button>
             </a>
             <Link to="/learn-this-instead/#case-study"><a className='styled'>read more<img src='./assets/search/arrow-down-plain.svg' className='link-arrow'/></a></Link>
