@@ -52,7 +52,7 @@ export default function ProjectList(){
             </ScrollAnimation>
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={500}>
             <div className='sm-proj-wrap'>
-               <a href='https://christiewarren.com/reform/' target='blank'>
+               <a href='https://christiewarren.github.io/reform/' target='blank'>
                <img src={'./assets/home/reform.jpg'} className='sm-proj-img'/>
                <h4 className='sm-proj-title'>Re/Form <img src={'./assets/home/external-link.svg'} className='external-link'/></h4>
                <small className='sm-proj-description'>The capstone exhibition for Penn State's Graphic Design Class of '21</small>

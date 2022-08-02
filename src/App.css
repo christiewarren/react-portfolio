@@ -1239,3 +1239,13 @@ main{
     width: 65%;
   }
 }
+
+/* resume */
+
+.resume-wrap{
+  width: 100%;
+}
+
+.resume{
+  width: 85%;
+}
