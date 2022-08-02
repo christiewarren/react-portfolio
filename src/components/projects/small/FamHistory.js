@@ -39,7 +39,7 @@ export default function FamHistory(){
          <section className='case-study-section context'>
             <h4>Context</h4>
             <div className='right'>
-               <p>My dad’s side of the family has kept a vast catalogue of photos, documents, letters, and more, and his grandmother, who had an interest in genealogy, worked to create a family tree spanning ___ generations.</p>
+               <p>My dad’s side of the family has kept a vast catalogue of photos, documents, letters, and more, and his grandmother, who had an interest in genealogy, worked to create a family tree spanning 7+ generations.</p>
                <div className='img-wrap'>
                   <img src='./assets/family-archive/family-tree.jpg' alt="family tree diagram" className='img-shadow'/>
                   <small className='subs-caption'>A diagram of our family tree documented by my Great, Great Grandma</small>
