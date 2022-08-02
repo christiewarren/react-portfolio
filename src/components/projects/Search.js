@@ -37,7 +37,7 @@ export default function Search(){
             </div>
          </div>
          <div className='proj-hero-wrap'>
-            <img src={'./assets/home/search.png'} className='proj-hero'/>
+            <img src={'./assets/home/search.png'} className='proj-hero' alt="final Sitewide Search design" />
          </div>
       </div>
       <main>
@@ -48,9 +48,9 @@ export default function Search(){
             <h6>I designed the Sitewide Search feature for KiwiCo’s website, allowing users to search for subscription lines, individual products, DIY ideas, blog posts, help articles, and more. <br/><br/>The biggest challenge was providing enough — but not too much — information to clearly differentiate individual products from subscription lines in the results.<br/><br/>Today, an average of 839 people use Sitewide Search daily, compared to the combined 219 who use the search features within Store, Blog, and DIYs.</h6>
 
             <a href='https://www.kiwico.com/' target='blank' className='no-style-link'>
-               <button>see it live<img src='./assets/search/arrow-right.svg' className='button-arrow'/></button>
+               <button>see it live<img src='./assets/search/arrow-right.svg' className='button-arrow' alt="right arrow" /></button>
             </a>
-            <Link to="/sitewide-search/#case-study"><a className='styled'>read the case study<img src='./assets/search/arrow-down-plain.svg' className='link-arrow'/></a></Link>
+            <Link to="/sitewide-search/#case-study"><a className='styled'>read the case study<img src='./assets/search/arrow-down-plain.svg' className='link-arrow' alt="down arrow" /></a></Link>
          </section>
          </ScrollAnimation>
 
@@ -62,7 +62,7 @@ export default function Search(){
             <div className='right'>
                <p>KiwiCo is an e-commerce site with nine subscription lines and 160+ products spanning ages newborn to 100 and countless interests. Not to mention the nearly 1,600 DIY and Blog articles.</p>
                <div className='img-wrap'>
-                  <img src='./assets/search/kiwico-subs.png'/>
+                  <img src='./assets/search/kiwico-subs.png' alt="kiwico subscriptions" />
                   <small className='subs-caption'>KiwiCo subscription lines</small>
                </div>
                <br/><p>Prior to this project, users could search the Store (individually sold products), DIY ideas, and Blog posts each individually. But, considering that subscriptions are actually KiwiCo’s primary revenue source and that products and content are often marketed together, our team wanted to create a feature for searching everything KiwiCo has to offer at once — a Sitewide Search feature.<br/><br/>Not only would Sitewide Search be a better (and more familiar) browsing experience, it would also help the business by featuring subscriptions more prominently. Making subscription lines searchable could be a huge opportunity, considering how likely users are to interact with Search.<span className='source'>*</span></p>
@@ -79,12 +79,12 @@ export default function Search(){
             <p>Considering the importance of familiarity and the relative complexity of KiwiCo’s searchable content** I started with some extensive benchmarking. I <span className='highlight'>reviewed search features on over 20 websites and apps</span> and noted consistencies and aspects that would or wouldn’t work well for KiwiCo’s search.</p>
             <br/><small>** subscription lines, Store products, DIY ideas, Blog posts, Help articles, and miscellaneous pages</small>
             <div className='img-wrap'>
-               <img src='./assets/search/benchmarking.jpg'/>
+               <img src='./assets/search/benchmarking.jpg' alt="benchmarking" />
                <small>I mainly benchmarked against ecommerce sites like Lego and Target</small>
             </div>
             <br/><p>I also read numerous articles from the Baymard Institute to determine best practices for search features as well as how prominent ours should be.</p>
             <div className='img-wrap search-placement'>
-               <img src='./assets/search/search-placement.png' className='sm-img'/>
+               <img src='./assets/search/search-placement.png' className='sm-img' alt="search placement options" />
                <small>Initial exploration of placement in the mobile nav, compared to the original nav sans-search (top)<br/>I moved forward with #1 for its simplicity and better use of space.</small>
             </div>
             <h5>Based on my findings and early feedback, I made these initial decisions:</h5>
@@ -125,7 +125,7 @@ export default function Search(){
             <h6>My main goals for Round 1 were to determine whether subscriptions and Store products were presented in an understandable way and test the hypotheses I made during research.</h6>
             <br/><p>A whole tab for subscriptions seemed like overkill when it would only have a max of nine results. So, for my tests I combined subscriptions and Store products into a “Products” tab, which also meant combining them into one section in the “All” tab.</p>
             <div className='img-wrap'>
-               <img src='./assets/search/user-test-round1-desktop.jpg'/>
+               <img src='./assets/search/user-test-round1-desktop.jpg' alt="products tab with sub and store" />
                <small>Subscriptions and Store items combined into a Products tab and category</small>
             </div>
             <br/><p>Feedback from the tests made it clear that <span className='highlight'>this solution was far too confusing</span> and led to hesitancy around viewing more products, since participants were unsure exactly what they’d be viewing.</p>
@@ -135,8 +135,7 @@ export default function Search(){
             <h6>These rounds I primarily gathered feedback on the ideal amount of information and options to provide throughout the flow. </h6>
             <p>In particular, I hoped to provide clarity around the relevance of subscription results to the search term by listing which boxes in each subscription line matched the search term. (e.g. if “robots” is the search term, the Tinker Crate project, “Walking Robot,” is listed under Tinker Crate).</p>
             <div className='img-wrap'>
-               <img src='./assets/search/sub-crates.png' className='sm-img'/>
-               <small>Subscriptions and Store items combined into a Products tab and category</small>
+               <img src='./assets/search/sub-crates.png' className='sm-img' alt="subs with extra info" />
             </div>
             <br/><p>However, this extra info had the opposite effect, raising more questions and hesitancy and distracting participants from other results. Instead, they voiced that <span className='highlight'>price, images, and quick view</span> would be much more helpful to their understanding of each subscription.<br/><br/>These rounds also confirmed that giving subscriptions their own category but only displaying it at the top of the “All” tab would give them sufficient prominence, without dedicating a whole tab to them.</p>
             </div>
@@ -159,43 +158,43 @@ export default function Search(){
                   >
                      <SwiperSlide>
                         <div className='img-wrap'>
-                           <img src='./assets/search/final/mobile/empty-state.jpg' className='carousel-img-m img-shadow'/>
+                           <img src='./assets/search/final/mobile/empty-state.jpg' className='carousel-img-m img-shadow' alt="final search empty state mobile" />
                            <small className='slide-caption'>Search opens in a full-page overlay, and empty state suggests subscription lines and popular Store items</small>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide>
                         <div className='img-wrap'>
-                           <img src='./assets/search/final/mobile/suggestions1.jpg' className='carousel-img-m img-shadow'/>
+                           <img src='./assets/search/final/mobile/suggestions1.jpg' className='carousel-img-m img-shadow' alt="final search suggestions mobile" />
                            <small className='slide-caption'>Suggestions allow user to go directly to a specific category</small>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide>
                         <div className='img-wrap'>
-                           <img src='./assets/search/final/mobile/suggestions2.jpg' className='carousel-img-m img-shadow'/>
+                           <img src='./assets/search/final/mobile/suggestions2.jpg' className='carousel-img-m img-shadow' alt="final search more suggestions mobile" />
                            <small className='slide-caption'>More suggestions show related subscriptions and Store items</small>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide>
                         <div className='img-wrap'>
-                           <img src='./assets/search/final/mobile/results-sub.jpg' className='carousel-img-m img-shadow'/>
+                           <img src='./assets/search/final/mobile/results-sub.jpg' className='carousel-img-m img-shadow' alt="final search sub results mobile" />
                            <small className='slide-caption'>Results feature subscriptions prominently without them occupying too much vertical space</small>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide>
                         <div className='img-wrap'>
-                           <img src='./assets/search/final/mobile/results-store.jpg' className='carousel-img-m img-shadow'/>
+                           <img src='./assets/search/final/mobile/results-store.jpg' className='carousel-img-m img-shadow' alt="final search store results mobile" />
                            <small className='slide-caption'>Store results feature the six most relevant products with the ability to view more in the Store tab (via a View more button not pictured)</small>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide>
                         <div className='img-wrap'>
-                           <img src='./assets/search/final/mobile/results-diy-blog.jpg' className='carousel-img-m img-shadow'/>
+                           <img src='./assets/search/final/mobile/results-diy-blog.jpg' className='carousel-img-m img-shadow' alt="final search diy/blog results mobile" />
                            <small className='slide-caption'>Similarly, results for DIY ideas and Blog posts feature the six most relevant articles</small>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide>
                         <div className='img-wrap'>
-                           <img src='./assets/search/final/mobile/results-help-more.jpg' className='carousel-img-m img-shadow'/>
+                           <img src='./assets/search/final/mobile/results-help-more.jpg' className='carousel-img-m img-shadow' alt="final search help/more results mobile" />
                            <small className='slide-caption'>Help and More results contain relevant help articles and miscellaneous pages</small>
                         </div>
                      </SwiperSlide>
@@ -215,32 +214,32 @@ export default function Search(){
                      >
                         <SwiperSlide>
                            <div className='img-wrap'>
-                              <img src='./assets/search/final/desktop/empty-state.jpg' className='carousel-img-d img-shadow'/>
+                              <img src='./assets/search/final/desktop/empty-state.jpg' className='carousel-img-d img-shadow' alt="final search empty state desktop" />
                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
                            <div className='img-wrap'>
-                              <img src='./assets/search/final/desktop/suggestions.jpg' className='carousel-img-d img-shadow'/>
+                              <img src='./assets/search/final/desktop/suggestions.jpg' className='carousel-img-d img-shadow' alt="final search suggestions desktop" />
                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
                            <div className='img-wrap'>
-                              <img src='./assets/search/final/desktop/results-sub.jpg' className='carousel-img-d img-shadow'/>
+                              <img src='./assets/search/final/desktop/results-sub.jpg' className='carousel-img-d img-shadow' alt="final search sub results desktop" />
                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
                            <div className='img-wrap'>
-                              <img src='./assets/search/final/desktop/results-store.jpg' className='carousel-img-d img-shadow'/>
+                              <img src='./assets/search/final/desktop/results-store.jpg' className='carousel-img-d img-shadow' alt="final search store results desktop" />
                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
                            <div className='img-wrap'>
-                              <img src='./assets/search/final/desktop/results-diy-blog.jpg' className='carousel-img-d img-shadow'/>
+                              <img src='./assets/search/final/desktop/results-diy-blog.jpg' className='carousel-img-d img-shadow' alt="final search diy/blog results desktop" />
                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
                            <div className='img-wrap'>
-                              <img src='./assets/search/final/desktop/results-help-more.jpg' className='carousel-img-d img-shadow'/>
+                              <img src='./assets/search/final/desktop/results-help-more.jpg' className='carousel-img-d img-shadow' alt="final search help/more results desktop" />
                            </div>
                         </SwiperSlide>
                      </Swiper>
@@ -259,7 +258,7 @@ export default function Search(){
             </ul>
             <p>That being said, one thing we know for sure is that <span className='highlight'>the number of people searching the site has nearly <b>quadrupled</b></span> with the addition of Sitewide Search. The individual searches in Store, Blog, and DIYs account for a combined average of <b>219</b> searches per day, compared to Sitewide Search’s average of <b>839</b>.</p>
             <div className='img-wrap'>
-               <img src='./assets/search/mixpanel-graph.png' className='img-shadow'/>
+               <img src='./assets/search/mixpanel-graph.png' className='img-shadow' alt="mixpanel graph of search data" />
                <small>Sitewide search (top/purple) traffic vs. Store, DIY, and Blog searches</small>
             </div>
             </div>

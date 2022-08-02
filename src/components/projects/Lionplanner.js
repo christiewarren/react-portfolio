@@ -43,7 +43,7 @@ export default function Lionplanner(){
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
             <section id='tldr'>
                <h6>I worked as the sole designer on a team of front and backend developers to build a web application for students to plan their long-term (multi-year) college course schedules. The app generated interactive course plans for chosen major(s) and eliminated the risk of of missing requirements or prerequisites.<br/><br/>The largest design challenge with LionPlanner was consolidating the many scattered resources students need to consult during their planning process within the UI, while still making it easy to navigate.<br/><br/>We completed this project as a part of a 9-month long competition at Penn State called the NittanyAI Challenge. While our team ultimately didn't pursue this project after the competition, we were so excited to receive first place, and it was the project that inspired me to go into UX.</h6>
-               <Link to="/lionplanner/#case-study"><a className='styled'>read the case study<img src='./assets/search/arrow-down-plain.svg' className='link-arrow'/></a></Link>
+               <Link to="/lionplanner/#case-study"><a className='styled'>read the case study<img src='./assets/search/arrow-down-plain.svg' className='link-arrow' alt="down arrow" /></a></Link>
             </section>
             </ScrollAnimation>
 
@@ -55,7 +55,7 @@ export default function Lionplanner(){
                <div className='right'>
                   <p>The Nittany AI Challenge prompt was to build an application that uses AI to solve a problem in education. As students, we knew that planning which courses to take over a college career at Penn State is a <span className='highlight'>tedious and entirely manual process</span> involving <span className='highlight'>many scattered resources.</span></p>
                   <div className='img-wrap'>
-                     <img src='./assets/lionplanner/resources.jpg' alt="Planning resources"/>
+                     <img src='./assets/lionplanner/resources.jpg' alt="planning resources"/>
                      <small className='subs-caption'>Some of the resources a student would need to use to plan their college courses</small>
                   </div>
                   <br/><p>We proposed LionPlanner: a solution that would automate the course plan up front by fulfilling all requirements for a chosen major. The app would then provide an interactive UI where students could add, remove, and reorder courses in their plan and view warnings for any missing requirements or prerequisites.</p>

@@ -29,7 +29,7 @@ export default function MentorApp(){
          <section id='tldr'>
             <h6>I designed a mobile app to help underclassmen connect with upperclassmen mentors at Penn State as part of my application for the 2020 Google UX internship.
             <br/><br/>I used this week-long project as an opportunity to improve my process and specifically to emphasize user research.</h6>
-            <Link to="/mentor-app/#case-study"><a className='styled'>read more<img src='./assets/search/arrow-down-plain.svg' className='link-arrow'/></a></Link>
+            <Link to="/mentor-app/#case-study"><a className='styled'>read more<img src='./assets/search/arrow-down-plain.svg' className='link-arrow' alt="down arrow"/></a></Link>
          </section>
          </ScrollAnimation>
 

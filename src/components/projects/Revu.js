@@ -31,7 +31,7 @@ export default function Revu(){
                </div>
             </div>
             <div className='proj-hero-wrap'>
-               <img src={'./assets/revu/edit-quiz.jpg'} alt="LionPlanner final design" className='proj-hero'/>
+               <img src={'./assets/revu/edit-quiz.jpg'} alt="Revu final design" className='proj-hero'/>
             </div>
          </div>
          <main>
@@ -42,7 +42,7 @@ export default function Revu(){
             <h6>I worked as a UI/UX designer along with a full stack developer to create a web app that generates multiple choice quizzes from a passage of text.
             <br/><br/>This was yet another extremely rewarding experience competing in the NittanyAI Challenge, and my teammate, Matt, and I were so grateful to receive first place.</h6>
 
-            <Link to="/revu/#case-study"><a className='styled'>read the case study<img src='./assets/search/arrow-down-plain.svg' className='link-arrow'/></a></Link>
+            <Link to="/revu/#case-study"><a className='styled'>read the case study<img src='./assets/search/arrow-down-plain.svg' className='link-arrow' alt="down arrow" /></a></Link>
          </section>
          </ScrollAnimation>
 

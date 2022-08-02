@@ -41,7 +41,7 @@ export default function WestArete(){
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section id='tldr'>
             <h6>I designed a learning management system (LMS) to help students learn better based on their personal learning style and the research behind how to learn best. This project was part of my internship at West Arete in 2019.</h6>
-            <Link to="/west-arete/#case-study"><a className='styled'>read more<img src='./assets/search/arrow-down-plain.svg' className='link-arrow'/></a></Link>
+            <Link to="/west-arete/#case-study"><a className='styled'>read more<img src='./assets/search/arrow-down-plain.svg' className='link-arrow' alt="down arrow"/></a></Link>
          </section>
          </ScrollAnimation>
 
@@ -66,7 +66,7 @@ export default function WestArete(){
                <h5>LMS’s miss opportunities</h5>
                <p>College students rely heavily on LMS's for class resources, but these applications could also be used to reinforce positive learning habits.</p>
                <div className="img-wrap">
-                  <img src={'./assets/west-arete/canvas-course.jpg'} alt="Canvas module" className='img-shadow'/>
+                  <img src={'./assets/west-arete/canvas-course.jpg'} alt="canvas module" className='img-shadow'/>
                </div>
                <div className="img-wrap">
                   <img src={'./assets/west-arete/canvas-dash.jpg'} alt="Canvas courses" className='img-shadow'/>

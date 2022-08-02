@@ -7,7 +7,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 export default function ProjectList(){
    return(
       <div className='proj-list-wrap' id='projects'>
-         <Link to="/#projects"><button className='view-work-btn'>things I've worked on<img src='./assets/home/arrow-up.svg' className='button-arrow'/></button></Link>
+         <Link to="/#projects"><button className='view-work-btn'>things I've worked on<img src='./assets/home/arrow-up.svg' className='button-arrow' alt="arrow up" /></button></Link>
          {projectData.map(project =>{
             return(
                <Link to={project.path}>
@@ -23,7 +23,7 @@ export default function ProjectList(){
                         })}
                      </div>
                      <div className='proj-img-wrap'>
-                        <img src={'./assets/' + project.image} className={project.imgClass}/>
+                        <img src={'./assets/' + project.image} className={project.imgClass} alt={project.imgClass}/>
                      </div>
                      </ScrollAnimation>
                   </div>
@@ -35,7 +35,7 @@ export default function ProjectList(){
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
                <div className='sm-proj-wrap'>
                   <Link to="/learn-this-instead">
-                     <img src={'./assets/home/learn-this-instead.jpg'} className='sm-proj-img'/>
+                     <img src={'./assets/home/learn-this-instead.jpg'} className='sm-proj-img' alt="learn this instead" />
                      <h4 className='sm-proj-title'>Learn This Instead</h4>
                      <small className='sm-proj-description'>A Chrome extension that redirects users from bad habits to a low-stress basics of CSS course</small>
                   </Link>
@@ -44,7 +44,7 @@ export default function ProjectList(){
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={250}>
                <div className='sm-proj-wrap'>
                   <Link to="/family-archive">
-                     <img src={'./assets/home/family-archive.jpg'} className='sm-proj-img'/>
+                     <img src={'./assets/home/family-archive.jpg'} className='sm-proj-img' alt="family archive" />
                      <h4 className='sm-proj-title'>Family History Archive</h4>
                      <small className='sm-proj-description'>An interactive archive of 7+ generations of family photos etc.</small>
                   </Link>
@@ -53,8 +53,8 @@ export default function ProjectList(){
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={500}>
             <div className='sm-proj-wrap'>
                <a href='https://christiewarren.github.io/reform/' target='blank'>
-               <img src={'./assets/home/reform.jpg'} className='sm-proj-img'/>
-               <h4 className='sm-proj-title'>Re/Form <img src={'./assets/home/external-link.svg'} className='external-link'/></h4>
+               <img src={'./assets/home/reform.jpg'} className='sm-proj-img' alt="reform" />
+               <h4 className='sm-proj-title'>Re/Form <img src={'./assets/home/external-link.svg'} className='external-link' alt="external link"/></h4>
                <small className='sm-proj-description'>The capstone exhibition for Penn State's Graphic Design Class of '21</small>
                </a>
             </div>
@@ -62,7 +62,7 @@ export default function ProjectList(){
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={750}>
             <div className='sm-proj-wrap'>
                <Link to="/mentor-app">
-                  <img src={'./assets/home/mentor.jpg'} className='sm-proj-img'/>
+                  <img src={'./assets/home/mentor.jpg'} className='sm-proj-img' alt="mentor app" />
                   <h4 className='sm-proj-title'>College Mentor App</h4>
                   <small className='sm-proj-description'>An app for college students to connect with mentors</small>
                </Link>
@@ -71,7 +71,7 @@ export default function ProjectList(){
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={1000}>
             <div className='sm-proj-wrap'>
                <Link to="/west-arete">
-                  <img src={'./assets/home/lms.jpg'} className='sm-proj-img'/>
+                  <img src={'./assets/home/lms.jpg'} className='sm-proj-img' alt="lms" />
                   <h4 className='sm-proj-title'>Research-Based LMS</h4>
                   <small className='sm-proj-description'>A Learning Management System that teaches students how to learn</small>
                </Link>
@@ -80,8 +80,8 @@ export default function ProjectList(){
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={1250}>
             <div className='sm-proj-wrap'>
                <a href='https://synthesis21.github.io/synthesis.github.io/' target='blank'>
-                  <img src={'./assets/home/synthesis.jpg'} className='sm-proj-img'/>
-                  <h4 className='sm-proj-title'>Synthesis <img src={'./assets/home/external-link.svg'} className='external-link'/></h4>
+                  <img src={'./assets/home/synthesis.jpg'} className='sm-proj-img' alt="synthesis" />
+                  <h4 className='sm-proj-title'>Synthesis <img src={'./assets/home/external-link.svg'} className='external-link' alt="external link" /></h4>
                   <small className='sm-proj-description'>The junior year exhibition for Penn State's Graphic Design Class of '21</small>
                </a>
             </div>

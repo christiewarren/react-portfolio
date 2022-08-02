@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react';
 import ProgressBar from "react-scroll-progress-bar";
-import { Navigation, Pagination } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import Footer from './Footer';
 
 // Import Swiper styles
@@ -23,7 +21,7 @@ export default function Search(){
       <div className='progress-bar-wrap'><ProgressBar bgcolor='#8A96FF'/></div>
       <div className='about-header'>
          <div className='about-header-img'>
-            <img src={'./assets/about/christie.jpg'} className='img-shadow' />
+            <img src={'./assets/about/christie.jpg'} className='img-shadow' alt="christie smiling" />
          </div>
          <h6><b>Hey, happy to have you here!</b><br/><br/>I'm a UI/UX designer from Pennsylvania, currently working at <span className='highlight'>KiwiCo in Mountain View, CA.</span> I have a B.Des. in Graphic Design from Penn State, where I also grew my love for UX through the <a href='https://nittanyai.psu.edu/blog/nittany-ai-challenge-helps-design-christie-warrens-future/' className='styled xs' target={'_blank'}>NittanyAI Challenge.</a><br/><br/>My favorite type of work poses complex UX challenges and improves everyday life for users. I aim to approach each project with ambition and curiosity, as well as a thoroughness that fosters smooth x-functional collaboration. I'd love to bring these qualities to a team that prioritizes people and process!
          {/* <a href='./assets/christie-warren-resume2022.pdf' target='blank'><button>my resume<img src='./assets/search/arrow-right.svg' className='button-arrow'/></button></a> */}
@@ -37,7 +35,7 @@ export default function Search(){
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
                <div className='sm-proj-wrap love'>
                   <div className='about-me-thing'>
-                     <img src={'./assets/about/kitten.png'} className='sm-proj-img'/>
+                     <img src={'./assets/about/kitten.png'} className='sm-proj-img' alt="Kitten being cute" />
                      <h4 className='sm-proj-title'>My cat</h4>
                      <small className='sm-proj-description'>My cat's name is Kitten (pronounced Kit-TEN — creative, I know) and I found him in a parking garage when he was 6 weeks old!</small>
                   </div>
@@ -55,7 +53,7 @@ export default function Search(){
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={500}>
                <div className='sm-proj-wrap love'>
                   <div className='about-me-thing'>
-                     <img src={'./assets/about/puzzle.png'} className='sm-proj-img'/>
+                     <img src={'./assets/about/puzzle.png'} className='sm-proj-img' alt="crossword solved" />
                      <h4 className='sm-proj-title'>Puzzles (jigsaw &amp; crossword)</h4>
                      <small className='sm-proj-description'>I do crosswords with friends on <a href='https://downforacross.com/'>Down for a Cross</a>, a genious innovation.</small>
                   </div>
@@ -64,7 +62,7 @@ export default function Search(){
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={750}>
                <div className='sm-proj-wrap love'>
                   <div className='about-me-thing'>
-                     <img src={'./assets/about/snack-lake.png'} className='sm-proj-img'/>
+                     <img src={'./assets/about/snack-lake.png'} className='sm-proj-img' alt="christie at a lake" />
                      <h4 className='sm-proj-title'>Eating snacks in cool places</h4>
                      <small className='sm-proj-description'>Snacks not pictured, but believe me, they were there.</small>
                   </div>
@@ -73,7 +71,7 @@ export default function Search(){
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={1000}>
                <div className='sm-proj-wrap love'>
                   <div className='about-me-thing'>
-                     <img src={'./assets/about/dogs.png'} className='sm-proj-img'/>
+                     <img src={'./assets/about/dogs.png'} className='sm-proj-img' alt="dogs in the sun" />
                      <h4 className='sm-proj-title'>Dogs</h4>
                      <small className='sm-proj-description'>Nuff said.</small>
                   </div>
@@ -91,7 +89,7 @@ export default function Search(){
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={1500}>
                <div className='sm-proj-wrap love'>
                   <div className='about-me-thing'>
-                     <img src={'./assets/about/national-treasure.png'} className='sm-proj-img'/>
+                     <img src={'./assets/about/national-treasure.png'} className='sm-proj-img' alt="national treasure" />
                      <h4 className='sm-proj-title'>The National Treasure Movies</h4>
                      <small className='sm-proj-description'>They are true classics. NT1 is my family's go-to movie, and definitely my most watched. This is a no-judge zone, btw.</small>
                   </div>
