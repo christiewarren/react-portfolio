@@ -31,14 +31,14 @@ html{
 
 body{
    margin: 0;
-   font-family: 'DM Sans';
+   font-family: 'DM Sans', sans-serif;
    color: var(--navy);
    background: white;
 }
 
 h1{
   font-size: 2rem;
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
   text-align: center;
 }
 
@@ -105,7 +105,7 @@ button{
   border-radius: 50px;
   border: none;
   padding: 3px 3px 3px 25px;
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -286,7 +286,7 @@ a{
 .nav-link{
   color: var(--navy);
   font-weight: bold;
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
   font-size: 1.5rem;
   font-size: 1rem;
   text-transform: uppercase;
@@ -392,7 +392,7 @@ a{
 .welcome-text h2 {
   font-size: 2.25rem;
   text-align: left;
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
   line-height: 1.5; 
   margin-bottom: 2rem;
   font-weight: bold;
@@ -596,7 +596,7 @@ a{
 }
 
 .proj-description{
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
   font-weight: bold;
   font-size: 1.75rem;
   line-height: 1.25;
