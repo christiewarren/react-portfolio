@@ -455,6 +455,17 @@ a{
   color: var(--navy);
 }
 
+@media screen and (min-width: 1320px) {
+
+  .welcome-text {
+    width: 44%;
+  }
+
+  .currently p{
+    font-size: 1rem;
+  }
+}
+
 @media screen and (max-width: 960px) {
 
   .welcome-text {
@@ -1222,6 +1233,18 @@ main{
   border-radius: 12px;
   min-width: 330px;
   height: 380px;
+  margin-bottom: 1.25rem;
+}
+
+@media screen and (min-width: 1300px) {
+  .about-header-img{
+    width: 30%;
+  }
+
+  .about-header{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
 }
 
 @media screen and (max-width: 1024px) {
