@@ -66,7 +66,7 @@ export default function Revu(){
                <h6>Initially our idea was to make Revu a tool for students to study with and stay focused while reading out of class assignments. After interviewing multiple students and speaking with professors, it became clear that this tool would be <span className='highlight'>much more impactful in the hands of teachers.</span></h6>
                <p>We learned that the problem lies with students not reading out of class in the first place, not with their studying habits. This phase showed us that it would be tough to motivate students to read, unless their teachers got involved.</p>
             
-               <h5>Problem Statment</h5>
+               <h5>Problem Statement</h5>
                <h6>Based on the feedback in the user interviews, we defined the primary problem we would aim to address:</h6>
                <p>A significant majority of students do not complete out of class reading assignments, and the options instructors have to remedy this take valuable time from them and from their class time.</p>
 

@@ -10,7 +10,7 @@ function App() {
       <div className='nav-wrap'>
         <Link to="/about-me" className='nav-link'>About</Link>
         <Link to="/#projects" className='nav-link'>Work</Link>
-        <Link to="/assets/christie-warren-resume2022.pdf" target={'_blank'} className='nav-link'>Resume</Link>
+        <Link to="/assets/christie-warren-resume2023.pdf" target={'_blank'} className='nav-link'>Resume</Link>
       </div>
       </>
   );

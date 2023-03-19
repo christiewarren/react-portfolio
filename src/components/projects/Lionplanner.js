@@ -187,7 +187,7 @@ export default function Lionplanner(){
                   <p>When designing the semesters, I took visual inspiration from the university-provided recommended course plans to increase familiarity in the UI. This basic design was consistent from the very first sketch, because a low learning curve was one of our priorities.
                   <br/><br/>Each course is also drag-and-droppable within and between semesters, making experimenting with different orders etc. very simple.</p>
                   <div className="img-wrap">
-                     <img src={'./assets/lionplanner/rap-semester.jpg'} alt="reccommended academic plan semester" className='img-shadow'/>
+                     <img src={'./assets/lionplanner/rap-semester.jpg'} alt="recommended academic plan semester" className='img-shadow'/>
                      <small>Semesters in the recommended course plan</small>
                   </div>
                   <div className="img-wrap back-to-back-img">
@@ -197,7 +197,7 @@ export default function Lionplanner(){
 
                   <h5 className='feature'>Tab Bar</h5>
                   <p>I originally designed the lefthand panel to have accordion sections, but iterated into a vertical tab bar. This design allows for <span className='highlight'>more vertical real estate for courses</span> (especially important for those browsing many at a time), and establishes a better hierarchy.</p>
-                  <p>While we didn't have time to add this functionality, ideally, this panel would be resizeable and fully collapsible.</p>
+                  <p>While we didn't have time to add this functionality, ideally, this panel would be resizable and fully collapsible.</p>
                   <p>This was by far the part of the app I spent the most time iterating on, because it includes such important and extensive resources. It needed to have enough space to fully explore them, without detracting too much from the plan itself.</p>
 
                   <h5 className='feature'>Course Catalog Search</h5>

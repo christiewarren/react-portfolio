@@ -49,18 +49,11 @@ export default function NavRedesign(){
             <h6>I completed a full redesign of KiwiCo's mobile and desktop main navigation and footers. 
             <br/><br/>The main goals of this project were to better align the navigation and footers with KiwiCo's brand, improve the hierarchy and visual design, and increase discoverability of certain content.
             <br/><br/>Challenges in this project primarily revolved around the multiple A/B test variations we ran on the site. Along with my PM, I monitored the metrics from these tests and proposed changes to the design to improve pageview, etc.
-            <br/><br/>Some highlights from the improved mobile nav metrics include:
-               <ul>
-                  <li>+ 5% in revenue and completed order </li>
-                  <li>+ 4% in product page views</li>
-                  <li>+ 23% in visits to our Blog pages</li>
-               </ul>
             </h6>
 
             <a href='https://www.kiwico.com/' target='blank' className='no-style-link'>
                <button>see it live *<img src='./assets/search/arrow-right.svg' className='button-arrow' alt="right arrow" /></button>
             </a>
-            <small className='live-caption'>* Mobile nav &amp; footer are currently in development, and desktop footer is still being tested, so only desktop nav may be visible on the site.</small>
             <Link to="/nav-redesign/#case-study"><a className='styled'>read the case study<img src='./assets/search/arrow-down-plain.svg' className='link-arrow' alt="down arrow" /></a></Link>
          </section>
          </ScrollAnimation>
@@ -93,7 +86,7 @@ export default function NavRedesign(){
                <p>During my Sitewide Search project, I conducted extensive benchmarking, including navigation, since I placed Search in KiwiCo's navs. So, I was able to reuse much of that, but this time focused on hierarchy, navigation options (like Shop by Age), and organization.</p>
                <div className='img-wrap'>
                   <img src='./assets/search/benchmarking.jpg' alt="benchmarking" />
-                  <small>I mainly benchmarked against ecommerce sites like Lego and Target</small>
+                  <small>I mainly benchmarked against e-commerce sites like Lego and Target</small>
                </div>
                <br/><p>Also similar to Search, I read about best practices in Baymard Institute articles. Learnings from this are best summarized by this excerpt about hierarchy:</p>
                <h6 className='quote'>“Testing showed that simply “lumping” all paths together in the main navigation, without any visual distinction, brought many subjects to a full stop . . . as they struggled to identify how to actually begin browsing products. Other subjects, intimidated by the overwhelming appearance of the main navigation, immediately abandoned trying to use the main navigation . . .”</h6>
@@ -254,39 +247,50 @@ export default function NavRedesign(){
          </ScrollAnimation>
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
+         <section class='case-study-section'>
+            <h4>Handoff</h4>
+            <div className='right'>
+               <h6>To ensure a smooth transition from design to dev, I made sure to be detailed and specific in how the nav should act at all screen sizes, etc.</h6>
+               <div className='img-wrap'>
+                  <img src={'./assets/nav/handoff.png'} className='img-shadow' alt="handoff" />
+               </div>
+            </div>
+         </section>
+         </ScrollAnimation>
+
+         <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
             <h4>A/B&nbsp;Tests</h4>
             <div className='right'>
                <h5><b>Mobile Menu:</b> Variations 1 &amp; 2</h5>
-               <p>About a month after starting our mobile menu A/B test, my PM and I were seeing a mix of positive and negative numbers, but were specifically concerned about a 3.4% drop in visits to the subscription purchase widget (KiwiCo's main source of revenue).</p>
+               <p>About a month after starting our mobile menu A/B test, my PM and I were seeing a mix of positive and negative numbers, but were specifically concerned about a 3.4% drop in visits to the subscription purchase flow (KiwiCo's main source of revenue).</p>
                <p>I proposed testing a variation with gray Subscription and Store accordion links instead of blue, to measure if the blue links were actually blending in with the nav.</p>
                <div className='multi-img-wrap img-wrap'>
                   <img src={'./assets/nav/menu-variation1.jpg'} alt="menu variation 1" className='sm-img img-shadow two'/>
                   <img src={'./assets/nav/menu-variation2.jpg'} alt="menu variation 2" className='sm-img img-shadow two'/>
                </div>
-               <p>However, the gray links variation was marginally less successful, seeing a slight drop in purchase widget visits, as well as up to 1% drops in completed order, overall revenue, and Store visits.</p>
+               <p>However, the gray links variation was marginally less successful, seeing a slight drop in purchase flow visits and subscription page visits.</p>
 
                <h5><b>Mobile Menu:</b> Variations 3 &amp; 4</h5>
-               <p>For our third variation, our CPO suggested adding the "Home" link back to the menu, to test whether the loss in purchase widget views was due to users getting lost somewhere on the site.</p>
+               <p>For our third variation, our CPO suggested adding the "Home" link back to the menu, to test whether the loss in purchase flow views was due to users getting lost somewhere on the site.</p>
                <p>I also proposed testing a fourth variation alongside this, which would include each subscription's tagline to make choosing a sub to explore less overwhelming.</p>
                <div className='multi-img-wrap img-wrap'>
                   <img src={'./assets/nav/menu-variation3.jpg'} alt="menu variation 3" className='sm-img img-shadow two'/>
                   <img src={'./assets/nav/menu-variation4.jpg'} alt="menu variation 4" className='sm-img img-shadow two'/>
                </div>
-               <p>While neither variation was actually able to produce an increase in purchase widget views from the original, variation 4 (subscription taglines) saw a 2% increase from variation 1.</p>
-               <p>Compared to variation 3, variation 4 also saw a 2% higher increase in overall revenue and completed orders — also the highest among all variations — at +5.2% and +5.8%, respectively.</p>
+               <p>While neither variation was actually able to produce an increase in purchase flow views from the original, variation 4 (subscription taglines) saw a slight increase from variation 1.</p>
                
                <br/><br/><b>Winning Variation</b>
                <h6>After running A/B tests for four months, it was decided to roll out variation 4 of the mobile menu (added subscription taglines).</h6>
-               <p>Unfortunately, I wasn't a part of this final decision, and I now know to make sure I have a more active roll in the future. Both my PM and I would've liked to test another variation to attempt an increase in purchase widget views, but there was a sentiment that we had too many A/B tests running on the site and needed to wrap some up.</p>
+               <p>Unfortunately, I wasn't a part of this final decision, and I now know to make sure I have a more active roll in the future. Both my PM and I would've liked to test another variation to attempt an increase in purchase flow views, but there was a sentiment that we had too many A/B tests running on the site and needed to wrap some up.</p>
                <p>However, I hope to run another test at a better time, possibly adding a CTA into the Subscription accordion.</p>
 
                <h5><b>Desktop Nav:</b> Variation 1</h5>
                <h6>After running this test for 53 days, we rolled out the first (and only) variation of the desktop nav, based on a positive impact on our primary metric (completed order) and a largely neutral one on other metrics.</h6>
-               <p>The desktop nav test primarily saw only slight changes in either direction, but its highlights included a 1.4% increase in completed order and a 2.5% increase in Store product page views.</p>
+               <p>The desktop nav test primarily saw only slight changes in either direction, but it trended positive in both completed order and Store product page views.</p>
 
                <h5><b>Footers:</b> Variation 1</h5>
-               <h6>Both desktop and mobile footers saw a drop of about 1% in email capture, purchase widget view, and completed order within the first 2 months of running the tests.</h6>
+               <h6>Both desktop and mobile footers were trending negative in email capture, purchase flow view, and completed order within the first 2 months of running the tests.</h6>
                <div className='img-wrap'>
                   <img src={'./assets/nav/mobile-footer-variation1.png'} className='img-shadow sm-img' alt="mobile footer variation 1" />
                </div>
@@ -296,7 +300,7 @@ export default function NavRedesign(){
 
                <h5><b>Mobile Footer:</b> Variation 2</h5>
                <h6>Since the mobile footer had significantly increased in length from the original, we first tried moving the email signup to the top on mobile while we continued to let the desktop test run.</h6>
-               <p>This change was a success, improving email capture to + 2.4% from the original.</p>
+               <p>This change was a success, improving email capture from the original.</p>
                <p>However, it still saw concerning drops in completed order and views for completed order and subscription pages.</p>
                <div className='img-wrap'>
                   <img src={'./assets/nav/mobile-footer-variation2.png'} className='img-shadow sm-img' alt="mobile footer variation 2" />
@@ -322,19 +326,10 @@ export default function NavRedesign(){
 
                <br/><br/><b>Mobile Footer: Winning Variation</b>
                <h6>After running A/B tests for about four months, we decided to roll out variation 3 of the mobile footer.</h6>
-               <p>Metrics came a long way in this test, with final highlights including:</p>
-               <ul>
-                  <li>+ 2.5% and + 2% in overall revenue and completed order, respectively</li>
-                  <br/>
-                  <li>+ 2.5% in emails captured</li>
-                  <br/>
-                  <li>+ 2.4% in Store page visits</li>
-                  <br/>
-                  <li>+ 15% in gifting-related page visits</li>
-               </ul>
+               <p>While its difficult for footer tests to reach statistical significance, we were able to turn them around from consistently trending negative to consistently trending positive.</p>
 
                <h5><b>Desktop Footer:</b> Variation 3</h5>
-               <h6>Still seeing concerning numbers, specifically with a decrease of 3% in emails captured, we recently decided to run a test emphasizing email sign up more prominently. (this test is currently running)</h6>
+               <h6>Still seeing concerning numbers, specifically with a decrease in emails captured, we recently decided to run a test emphasizing email sign up more prominently. (this test is currently running)</h6>
                <div className='img-wrap'>
                   <img src={'./assets/nav/desktop-footer-variation3.jpg'} className='img-shadow' alt="desktop footer variation 3" />
                </div>
@@ -406,18 +401,6 @@ export default function NavRedesign(){
                      </div>
                   </SwiperSlide>
                </Swiper>
-            </div>
-         </section>
-         </ScrollAnimation>
-
-         <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
-         <section class='case-study-section'>
-            <h4>Handoff</h4>
-            <div className='right'>
-               <h6>To ensure a smooth transition from design to dev, I made sure to be detailed and specific in how the nav should act at all screen sizes, etc.</h6>
-               <div className='img-wrap'>
-                  <img src={'./assets/nav/handoff.png'} className='img-shadow' alt="handoff" />
-               </div>
             </div>
          </section>
          </ScrollAnimation>

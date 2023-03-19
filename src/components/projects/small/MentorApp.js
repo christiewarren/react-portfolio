@@ -58,7 +58,7 @@ export default function MentorApp(){
                <h5>Surveys</h5>
                <p>Next, I sent a brief survey to some under and upperclassmen peers to get a starting point in terms of users' general reactions to this application. I sent separate surveys to under/upperclassmen, both asking three questions:</p>
                <ol>
-                  <li>How interested are you in having an upper(under)classman as a mentor(ee)?</li>
+                  <li>How interested are you in having an upper(under)classmen as a mentor(ee)?</li>
                   <li>Which characteristics would be important for you and your mentor(ee) to have in common?</li>
                   <li>Are there any reasons you'd be hesitant to have a student mentor(ee)?</li>
                </ol>
@@ -186,7 +186,7 @@ export default function MentorApp(){
                   <li>Comment on Quick Questions</li>
                   <li>Log time spent mentoring to potentially receive course credits (further ahead)</li>
                </ul>
-               <p>In this current solution, any upperclassman at Penn State is eligible to become a mentor. However, in the future, once the app has more users, there would ideallybe an interview system in which current mentors evaluate potential mentors. For the time being, I chose not to apply this limitation, as there are already obstacles for encouraging students to become mentors.</p>
+               <p>In this current solution, any upperclassman at Penn State is eligible to become a mentor. However, in the future, once the app has more users, there would ideally be an interview system in which current mentors evaluate potential mentors. For the time being, I chose not to apply this limitation, as there are already obstacles for encouraging students to become mentors.</p>
             </div>
          </section>
          </ScrollAnimation>

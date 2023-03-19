@@ -80,7 +80,7 @@ export default function Search(){
             <br/><small>** subscription lines, Store products, DIY ideas, Blog posts, Help articles, and miscellaneous pages</small>
             <div className='img-wrap'>
                <img src='./assets/search/benchmarking.jpg' alt="benchmarking" />
-               <small>I mainly benchmarked against ecommerce sites like Lego and Target</small>
+               <small>I mainly benchmarked against e-commerce sites like Lego and Target</small>
             </div>
             <br/><p>I also read numerous articles from the Baymard Institute to determine best practices for search features as well as how prominent ours should be.</p>
             <div className='img-wrap search-placement'>

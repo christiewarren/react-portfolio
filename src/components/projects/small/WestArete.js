@@ -94,7 +94,7 @@ export default function WestArete(){
                   </ul>
                </div>
                <h5>2. The Pro Learner</h5>
-               <p>This student is generally quite good at learning, and would like to monitor their progression and abilities throughout a course. They would be interested in reading about the research behind their learning style, so they can improve on their own. This student would also like to have the ability to try out different tpyes of learning tools.</p>
+               <p>This student is generally quite good at learning, and would like to monitor their progression and abilities throughout a course. They would be interested in reading about the research behind their learning style, so they can improve on their own. This student would also like to have the ability to try out different types of learning tools.</p>
                <div className='user-needs'>
                   <p><b>Needs</b></p>
                   <ul>
@@ -181,7 +181,7 @@ export default function WestArete(){
             <h4>Reflection</h4>
                <div className='right'>
                   <h5>Learnings</h5>
-                  <p>For this project, our clients' expertise lay largely in research, so I often needed to justify my design decsions, as I favored a user-friendly interface over detailed data visualizations. Being prepared to reason with our clients and make compromises when necessary was extremely valuable, and I found that my extensive critiquing experience really helped with this process. Transforming a broad, grandiose concept into a concrete interface and flow was also great experience, and required a lot of discipline from our end.</p>
+                  <p>For this project, our clients' expertise lay largely in research, so I often needed to justify my design decisions, as I favored a user-friendly interface over detailed data visualizations. Being prepared to reason with our clients and make compromises when necessary was extremely valuable, and I found that my extensive critiquing experience really helped with this process. Transforming a broad, grandiose concept into a concrete interface and flow was also great experience, and required a lot of discipline from our end.</p>
                   <h5>Next Time...</h5>
                   <p>This being my first client project, I learned how important it is to be responsive to clients. Our clients were particularly enthusiastic and would complete the "homework" we asked them to do and then some, so at a point our team wasn't keeping up with the clients' updated documents. If I were to do this over, I'd reign in the design process until I was completely certain of the clients' expectations in order to make better usage of everyone's time.</p>
             </div>
