@@ -52,7 +52,7 @@ export default function NavRedesign(){
             </h6>
 
             <a href='https://www.kiwico.com/' target='blank' className='no-style-link'>
-               <button>see it live *<img src='./assets/search/arrow-right.svg' className='button-arrow' alt="right arrow" /></button>
+               <button>see it live<img src='./assets/search/arrow-right.svg' className='button-arrow' alt="right arrow" /></button>
             </a>
             <Link to="/nav-redesign/#case-study"><a className='styled'>read the case study<img src='./assets/search/arrow-down-plain.svg' className='link-arrow' alt="down arrow" /></a></Link>
          </section>
