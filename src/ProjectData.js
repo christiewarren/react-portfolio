@@ -25,14 +25,5 @@ export default[
       tags: ['case study'],
       imgClass: 'proj-img img-shadow revu',
       path: '/revu'
-   },
-   {
-      title: 'LionPlanner',
-      description: 'Automatically generated interactive course plans for a full college career',
-      image: 'lionplanner/final.jpg',
-      wrapClass: 'lionplanner',
-      tags: ['case study'],
-      imgClass: 'proj-img img-shadow lionplanner',
-      path: '/lionplanner'
    }
 ]
