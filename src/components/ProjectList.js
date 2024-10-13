@@ -43,6 +43,15 @@ export default function ProjectList(){
             </ScrollAnimation>
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={250}>
                <div className='sm-proj-wrap'>
+                  <Link to="/lionplanner">
+                     <img src={'./assets/lionplanner/final.jpg'} className='sm-proj-img' alt="family archive" />
+                     <h4 className='sm-proj-title'>LionPlanner</h4>
+                     <small className='sm-proj-description'>Automatically generated interactive course plans for a full college career</small>
+                  </Link>
+               </div>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={500}>
+               <div className='sm-proj-wrap'>
                   <Link to="/family-archive">
                      <img src={'./assets/home/family-archive.jpg'} className='sm-proj-img' alt="family archive" />
                      <h4 className='sm-proj-title'>Family History Archive</h4>
@@ -50,7 +59,7 @@ export default function ProjectList(){
                   </Link>
                </div>
             </ScrollAnimation>
-            <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={500}>
+            <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={750}>
             <div className='sm-proj-wrap'>
                <a href='https://christiewarren.github.io/reform/' target='blank'>
                <img src={'./assets/home/reform.jpg'} className='sm-proj-img' alt="reform" />
@@ -59,7 +68,7 @@ export default function ProjectList(){
                </a>
             </div>
             </ScrollAnimation>
-            <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={750}>
+            <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={1000}>
             <div className='sm-proj-wrap'>
                <Link to="/mentor-app">
                   <img src={'./assets/home/mentor.jpg'} className='sm-proj-img' alt="mentor app" />
@@ -68,7 +77,7 @@ export default function ProjectList(){
                </Link>
             </div>
             </ScrollAnimation>
-            <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={1000}>
+            {/* <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={1000}>
             <div className='sm-proj-wrap'>
                <Link to="/west-arete">
                   <img src={'./assets/home/lms.jpg'} className='sm-proj-img' alt="lms" />
@@ -76,7 +85,7 @@ export default function ProjectList(){
                   <small className='sm-proj-description'>A Learning Management System that teaches students how to learn</small>
                </Link>
             </div>
-            </ScrollAnimation>
+            </ScrollAnimation> */}
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={1250}>
             <div className='sm-proj-wrap'>
                <a href='https://synthesis21.github.io/synthesis.github.io/' target='blank'>
