@@ -1,5 +1,14 @@
 export default[
    {
+      title: 'Prior authorization requests @ Alma',
+      description: 'A robust and flexible data entry flow for recording prior auth request outcomes',
+      image: 'priorauth/priorauth.png',
+      wrapClass: 'priorauth',
+      imgClass: 'proj-img',
+      tags: ['case study'],
+      path: '/prior-authorizations'
+   },
+   {
       title: 'Sitewide Search @ KiwiCo',
       description: 'A search feature for browsing 6 types of products and content',
       image: 'home/search.png',

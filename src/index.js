@@ -11,6 +11,7 @@ import {
 import About from './components/About.js'
 import Home from './components/Home.js'
 import Search from './components/projects/Search.js'
+import PriorAuth from './components/projects/PriorAuth.js'
 import NavRedesign from './components/projects/NavRedesign.js'
 import Lionplanner from './components/projects/Lionplanner.js'
 import Revu from './components/projects/Revu.js'
@@ -28,6 +29,7 @@ root.render(
           <Route exact path='/' element={<Home/>} />
           <Route path='/about-me' element={<About/>} />
           {/* Projects */}
+          <Route path='/prior-authorizations' element={<PriorAuth/>} />
           <Route path='/sitewide-search' element={<Search/>} />
           <Route path='/nav-redesign' element={<NavRedesign/>} />
           <Route path='/lionplanner' element={<Lionplanner/>} />
