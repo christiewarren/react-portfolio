@@ -27,6 +27,7 @@ export default function PriorAuth(){
                   <br/>Product Designer</p>
                   <p><b>Collaborators:</b>
                   <br/>Product Manager
+                  <br/>Engineering Manager
                   <br/>2 FE Devs
                   <br/>2 BE Devs
                   </p>
@@ -46,9 +47,9 @@ export default function PriorAuth(){
          
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section id='tldr'>
-            <h6>I designe
-               
-               I designed the Sitewide Search feature for KiwiCo’s website, allowing users to search for subscription lines, individual products, DIY ideas, blog posts, help articles, and more. <br/><br/>The biggest challenge was providing enough — but not too much — information to clearly differentiate individual products from subscription lines in the results.<br/><br/>Today, an average of 839 people use Sitewide Search daily, compared to the combined 219 who use the search features within Store, Blog, and DIYs.</h6>
+            <h6>I designed the migration of our psychological testing request process from Asana tickets to a form in the provider portal and an internal data entry workflow.
+            <br/><br/>The biggest challenges were balancing flexibility and guidance for internal users and designing intuitive interactions for multi-step data entry.
+            <br/><br/>The MVP of this project is estimated to save ___ once released and lays groundwork for automating even more of the prior auth process in the future.</h6>
 
             <Link to="/prior-authorizations/#case-study"><a className='styled'>read the case study<img src='./assets/search/arrow-down-plain.svg' className='link-arrow' alt="down arrow" /></a></Link>
          </section>
@@ -60,15 +61,16 @@ export default function PriorAuth(){
          <section class='case-study-section context'>
             <h4>Context</h4>
             <div className='right'>
-               <p>Alma is a platform on which therapists can run private practices without much of the burden typically associated with doing so. [examples of what Alma does]</p> 
-               <br/><p>Another process Alma handles on a providers behalf is getting authorization from insurance companies to conduct psychological and neuropsychological testing. Providers submit the details of the testing they intend to conduct, and Alma staff determine 1) whether authorization is required and 2) if so, whether the insurance company will approve it.</p>  
-               <br/><p>Prior to this project, prior authorization requests were handled entirely through Asana tickets, with outcomes being written in the comments. The biggest problem this manual process caused was a <span className='highlight'>lack of stored and structured data,</span> which prevented us from:
+               <p>Alma is a platform for therapists (mental health care providers) to run private practices on without much of the burden typically associated with doing so. A lot of the value of Alma brings is centered around insurance: credentialing providers with insurance companies and negotiating higher rates, investigating and correcting claims, verifying patients' benefits, etc.</p> 
+               <p>Another insurance process Alma handles on a providers' behalves is getting authorization from insurance companies to conduct psychological and neuropsychological testing. Providers submit the details of the testing they intend to conduct, and Alma staff determine 1) whether authorization is required and 2) if so, whether the insurance company approves it.</p>  
+               <h5>The Problem</h5>
+               <p>Prior to this project, prior authorization (prior auth) requests at Alma were handled entirely through Asana tickets, with outcomes being written in the comments. The biggest problem with this manual process was a <span className='highlight'>lack of stored and structured data,</span> which prevented us from:
                </p>
                <ul>
                <li><p>Automating processes that rely on this data downstream</p></li>
                <li><p>Detecting "bad" provider behavior before they act on it</p></li>
                <li><p>Another item?</p></li>
-            </ul>
+               </ul>
             </div>
          </section>
          </ScrollAnimation>
@@ -78,32 +80,29 @@ export default function PriorAuth(){
 
             <h4>Research &amp; Diagramming</h4>
             <div className='right'>
-            <h6>Realizing that prior authorizations were a complex and multi-team effort, I first mapped out the existing processes. I believe this step is absolutely crucial: not only did it help me learn the many nuances, but the diagrams I made also became an invaluable resource for giving engineers, stakeholders, and design teammates a quick (or thorough) rundown.</h6>
-            <br/><small>Designing in the world of insurance and internal tools, I've learned it's not enough for me to be intimately familiar with a workflow, I also need to be able to distill that nuance down and communicate it in, for example, a 20 minute design critique. And one thing's for sure: <span className='highlight'>visuals &#x1F44F; always &#x1F44F; help &#x1F44F;</span></small>
-            <br/><p>My PM and I held 5 "shadow sessions" with future internal users, where they walked us through their day to day prior auth workflows. We asked many questions, learning not only from their expertise, but also from their pains and frustrations with the process.</p>
-            <iframe className='figjam-iframe' src="https://embed.figma.com/board/HX99Sdwrr5S2211p35VPJ7/Prior-Auth-mapping?node-id=0-1&embed-host=share" allowFullScreen></iframe>
-            <h5>Based on my findings and early feedback, I made these initial decisions:</h5>
+            <h6>Realizing that prior authorizations were a complex, multi-team effort, I wanted to start by mapping out the existing processes. I believe this step is absolutely crucial: not only did it help me learn the many nuances, but the diagrams I made also became an invaluable resource for giving engineers, stakeholders, and design teammates a quick (or thorough) rundown.</h6>
+            <br/><small>Designing in the world of insurance and internal tools, I've learned it's not enough for me to be intimately familiar with a workflow; I also need to be able to distill that nuance down and communicate it in, for example, a 20 minute design critique. And one thing's for sure: <span className='highlight'>visuals &#x1F44F; always &#x1F44F; help &#x1F44F;</span></small>
+            <br/><h5>User Interviews / Shadowing</h5>
+            <p>My PM and I held 5 "shadow sessions" with future internal users, where they walked us through their day to day prior auth workflows. We asked many questions, learning not only from their expertise, but also from their pains and frustrations with the process.</p>
+            <h5>Diagramming</h5>
+            <p>I first mapped the process in as detailed a manner as possible, documenting nuances like each time the user copy/pasted a piece of info and where they navigated to to find it. The result was a lengthy diagram that visually emphasizes the tediousness, but isn't helpful for getting the gist at a glance.</p>
+            <iframe className='figjam-iframe' src="https://embed.figma.com/board/TSAiQYZMeqWSLxH1cRTh8l/Prior-auth-workflow%3A-zoomed-in?node-id=0-1&embed-host=share" allowFullScreen></iframe>
+            <br/><br/><p>Ultimately, I distilled those down to a "zoomed out" version that captures the key steps and decision points.</p>
+            <iframe className='figjam-iframe-short' src="https://embed.figma.com/board/ySq6RGzgUPTiZbgomw2S4b/Prior-auth-workflow%3A-zoomed-out?node-id=0-1&embed-host=share" allowFullScreen></iframe>
+            <h5>Some initial learnings from our research:</h5>
             <table className='research-table'>
                <tbody>
                <tr>
-                  <th>Decision</th>
-                  <th>Reasoning</th>
+                  <td>Flexibility is key</td>
+                  <td>While prior auth typically follows one of a couple paths, exceptions are inevitable. Users need the flexibility to take steps in any order and make changes to all data points.</td>
                </tr>
                <tr>
-                  <td>Prominent in the nav, but closed by default</td>
-                  <td>Some users have a particular age or interest in mind but many may not know exactly what they’re looking for</td>
+                  <td>Consolidation = efficiency</td>
+                  <td>Because parts of this process take place in insurance company portals, there's a lot of copy/pasting involved that we can't control. But, we can ensure all info is in one place to make tedious steps less frustrating.</td>
                </tr>
                <tr>
-                  <td>Opens in a full width overlay</td>
-                  <td>Lend maximum space for showing product suggestions &amp; reduce busyness</td>
-               </tr>
-               <tr>
-                  <td>Suggestions should allow user to pick category</td>
-                  <td>Take users to what they’re looking for faster, without hindering those just browsing</td>
-               </tr>
-               <tr>
-                  <td>Highlight popular relevant products as suggestions, including photos</td>
-                  <td>Make for quicker navigation to desired results and offer visually engaging suggestions</td>
+                  <td>Good data collection up front saves time downstream</td>
+                  <td>Users pointed out flaws with the existing request form that mean having to reach out to providers to collect additional details or corrections. Much of this could easily be avoided by adding logic and education to the new form.</td>
                </tr>
                </tbody>
             </table>
@@ -113,26 +112,50 @@ export default function PriorAuth(){
 
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
             <section class='case-study-section'>
-            <h4>User Considerations</h4>
+            <h4>Design Evolution: Internal</h4>
             <div className='right'>
-            <h5>Round 1&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;</h5>
-            <a href='./assets/search/user-test-script1.pdf' target='blank' className='styled sm'>view script PDF</a>
-            <h6>My main goals for Round 1 were to determine whether subscriptions and Store products were presented in an understandable way and test the hypotheses I made during research.</h6>
-            <br/><p>A whole tab for subscriptions seemed like overkill when it would only have a max of nine results. So, for my tests I combined subscriptions and Store products into a “Products” tab, which also meant combining them into one section in the “All” tab.</p>
+            <h5>Layout & Editing</h5>
+            <p>Initially, I gravitated towards the UI patterns used in most of our internal workflows: slideouts (drawers) and modals. Knowing this project would involve a hefty implementation, I wanted to rely as much as possible on existing patterns and components.</p>
             <div className='img-wrap'>
-               <img src='./assets/search/user-test-round1-desktop.jpg' alt="products tab with sub and store" />
-               <small>Subscriptions and Store items combined into a Products tab and category</small>
+               {/* <img src='./assets/search/mixpanel-graph.png' className='img-shadow' alt="mixpanel graph of search data" /> */}
+               <small>image of lofi and initial slideouts</small>
             </div>
-            <br/><p>Feedback from the tests made it clear that <span className='highlight'>this solution was far too confusing</span> and led to hesitancy around viewing more products, since participants were unsure exactly what they’d be viewing.</p>
+            <p>However, feedback from design critiques helped me refocus on the goal of efficiency and push outside the box, without straying from our design system. The next iterations gave prior auth requests their own dedicated page with inline editing capabilities. This allows plenty of room for all the request and reference data and keeps the user in context as they complete tasks.</p>
+            <div className='img-wrap'>
+               {/* <img src='./assets/search/mixpanel-graph.png' className='img-shadow' alt="mixpanel graph of search data" /> */}
+               <small>image of full page design (without extra data?)</small>
+            </div>
+            <h5>Flexibility vs Guidance</h5>
+            <br/><p>Maintaining flexibility proved to be a surprisingly challenging goal. In most cases, I kept all fields editable, regardless of the request's status or the user's presumed step, which led to feedback that the flow felt too open ended and without guidance.</p>
+            <p>I experimented with dynamic CTAs to hint at likely next steps, but this neglected edge cases and the copy felt misleading. This unlocked an important idea though: using the request's status to inform guidance on next steps.</p>
+            <div className='img-wrap'>
+               {/* <img src='./assets/search/mixpanel-graph.png' className='img-shadow' alt="mixpanel graph of search data" /> */}
+               <small>image of dynamic ctas</small>
+            </div>
+            <p>After <strong>a lot</strong> of iteration, I landed on this floating, fixed "Next steps" callout. Considerations for this seemingly simple component included:</p>
+            <ul>
+               <li><p><strong>Context:</strong> No in-page position seemed quite right, as it's dynamic content can refer to various sections. Rather than being part of the page, this positioning lets it act as commentary on the page itself.</p></li>
+               <li><p><strong>Prominence:</strong> The floating also position lets it stand out without interrupting the user's flow or the page hierarchy. It's also collapsible for those users more accustomed with the process.</p></li>
+               <li><p><strong>Implementation:</strong> Our design system doesn't have this exact component, but I kept scope manageable by using our existing banner and announcement components as foundations.</p></li>
+            </ul>
+            <div className='img-wrap'>
+               {/* <img src='./assets/search/mixpanel-graph.png' className='img-shadow' alt="mixpanel graph of search data" /> */}
+               <small>carousel: gif of scrolling with "next steps", status mapping, layout iterations</small>
+            </div>
+            </div>
+            </section>
+            </ScrollAnimation>
 
-            <h5>Rounds 2 &amp; 3&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;</h5>
-            <a href='./assets/search/user-test-script23.pdf' target='blank' className='styled sm'>view script PDF</a>
-            <h6>These rounds I primarily gathered feedback on the ideal amount of information and options to provide throughout the flow. </h6>
-            <p>In particular, I hoped to provide clarity around the relevance of subscription results to the search term by listing which boxes in each subscription line matched the search term. (e.g. if “robots” is the search term, the Tinker Crate project, “Walking Robot,” is listed under Tinker Crate).</p>
+            <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
+            <section class='case-study-section'>
+            <h4>Scoping</h4>
+            <div className='right'>
+            <h5>Layout & Editing</h5>
+            <p>Initially, I gravitated towards the UI patterns used in most of our internal workflows: slideouts (drawers) and modals. Knowing this project would involve a hefty implementation, I wanted to rely as much as possible on existing patterns and components.</p>
             <div className='img-wrap'>
-               <img src='./assets/search/sub-crates.png' className='sm-img' alt="subs with extra info" />
+               {/* <img src='./assets/search/mixpanel-graph.png' className='img-shadow' alt="mixpanel graph of search data" /> */}
+               <small>image of lofi and initial slideouts</small>
             </div>
-            <br/><p>However, this extra info had the opposite effect, raising more questions and hesitancy and distracting participants from other results. Instead, they voiced that <span className='highlight'>price, images, and quick view</span> would be much more helpful to their understanding of each subscription.<br/><br/>These rounds also confirmed that giving subscriptions their own category but only displaying it at the top of the “All” tab would give them sufficient prominence, without dedicating a whole tab to them.</p>
             </div>
             </section>
             </ScrollAnimation>
@@ -140,63 +163,6 @@ export default function PriorAuth(){
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
             <section class='case-study-section'>
                <h4>Final&nbsp;Designs</h4>
-               <div className='right'>
-                  <h5>Mobile</h5>
-                  <Swiper
-                     modules={[Navigation, Pagination]}
-                     spaceBetween={50}
-                     slidesPerView={1}
-                     navigation
-                     pagination={{ clickable: true }}
-                     onSlideChange={() => console.log('slide change')}
-                     onSwiper={(swiper) => console.log(swiper)}
-                  >
-                     <SwiperSlide>
-                        <div className='img-wrap'>
-                           <img src='./assets/search/final/mobile/empty-state.jpg' className='carousel-img-m img-shadow' alt="final search empty state mobile" />
-                           <small className='slide-caption'>Search opens in a full-page overlay, and empty state suggests subscription lines and popular Store items</small>
-                        </div>
-                     </SwiperSlide>
-                     <SwiperSlide>
-                        <div className='img-wrap'>
-                           <img src='./assets/search/final/mobile/suggestions1.jpg' className='carousel-img-m img-shadow' alt="final search suggestions mobile" />
-                           <small className='slide-caption'>Suggestions allow user to go directly to a specific category</small>
-                        </div>
-                     </SwiperSlide>
-                     <SwiperSlide>
-                        <div className='img-wrap'>
-                           <img src='./assets/search/final/mobile/suggestions2.jpg' className='carousel-img-m img-shadow' alt="final search more suggestions mobile" />
-                           <small className='slide-caption'>More suggestions show related subscriptions and Store items</small>
-                        </div>
-                     </SwiperSlide>
-                     <SwiperSlide>
-                        <div className='img-wrap'>
-                           <img src='./assets/search/final/mobile/results-sub.jpg' className='carousel-img-m img-shadow' alt="final search sub results mobile" />
-                           <small className='slide-caption'>Results feature subscriptions prominently without them occupying too much vertical space</small>
-                        </div>
-                     </SwiperSlide>
-                     <SwiperSlide>
-                        <div className='img-wrap'>
-                           <img src='./assets/search/final/mobile/results-store.jpg' className='carousel-img-m img-shadow' alt="final search store results mobile" />
-                           <small className='slide-caption'>Store results feature the six most relevant products with the ability to view more in the Store tab (via a View more button not pictured)</small>
-                        </div>
-                     </SwiperSlide>
-                     <SwiperSlide>
-                        <div className='img-wrap'>
-                           <img src='./assets/search/final/mobile/results-diy-blog.jpg' className='carousel-img-m img-shadow' alt="final search diy/blog results mobile" />
-                           <small className='slide-caption'>Similarly, results for DIY ideas and Blog posts feature the six most relevant articles</small>
-                        </div>
-                     </SwiperSlide>
-                     <SwiperSlide>
-                        <div className='img-wrap'>
-                           <img src='./assets/search/final/mobile/results-help-more.jpg' className='carousel-img-m img-shadow' alt="final search help/more results mobile" />
-                           <small className='slide-caption'>Help and More results contain relevant help articles and miscellaneous pages</small>
-                        </div>
-                     </SwiperSlide>
-                  </Swiper>
-                  <h5 className='desktop-final'>Desktop</h5>
-                  
-               </div>
                <div className='desktop-swiper-wrap'>
                      <Swiper
                         modules={[Navigation, Pagination]}
@@ -239,6 +205,20 @@ export default function PriorAuth(){
                         </SwiperSlide>
                      </Swiper>
                   </div>
+            </section>
+            </ScrollAnimation>
+
+            <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
+            <section class='case-study-section'>
+            <h4>What's Next?</h4>
+            <div className='right'>
+            <h5>Layout & Editing</h5>
+            <p>Initially, I gravitated towards the UI patterns used in most of our internal workflows: slideouts (drawers) and modals. Knowing this project would involve a hefty implementation, I wanted to rely as much as possible on existing patterns and components.</p>
+            <div className='img-wrap'>
+               {/* <img src='./assets/search/mixpanel-graph.png' className='img-shadow' alt="mixpanel graph of search data" /> */}
+               <small>image of lofi and initial slideouts</small>
+            </div>
+            </div>
             </section>
             </ScrollAnimation>
 
