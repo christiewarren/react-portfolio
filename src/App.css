@@ -959,6 +959,24 @@ main{
   margin-top: 0;
 }
 
+.learning-outer{
+  position: relative;
+  border-radius: 10px;
+  padding: .25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(140deg, rgba(255,251,202,0.85) 0%, rgba(215,249,255,0.85) 50%, rgba(238,231,255,0.85) 100%);
+  margin-top: 2rem;
+}
+
+.learning-inner{
+  width: 100%;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+}
+
 .subs-caption{
   margin-top: 1rem;
 }

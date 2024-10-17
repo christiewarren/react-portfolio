@@ -87,8 +87,11 @@ export default function PriorAuth(){
             <h4>Research &amp; Diagramming</h4>
             <div className='right'>
             <h6>Realizing that prior authorizations were a complex, multi-team effort, I started by mapping out the existing processes. I believe this step is absolutely crucial: not only did it help me learn the many nuances, but the diagrams I made also became an invaluable resource for giving engineers, stakeholders, and design teammates a quick (or thorough) rundown.</h6>
-            <br/><small>Designing in the world of insurance and internal tools, I've learned it's not enough for me to be intimately familiar with a workflow; I also need to be able to distill that nuance down and communicate it in, for example, a 20 minute design critique. And one thing's for sure: <span className='highlight'>visuals &#x1F44F; always &#x1F44F; help &#x1F44F;</span></small>
-            <br/><h5>User Interviews / Shadowing</h5>
+            <div className='learning-outer'>
+               <div className='learning-inner'>&#128173; <small>Designing in the world of insurance and internal tools, I've learned it's not enough for me to be intimately familiar with a workflow; I also need to be able to distill that nuance down and communicate it in, for example, a 20 minute design critique. And one thing's for sure: <span className='highlight'>visuals &#x1F44F; always &#x1F44F; help &#x1F44F;</span></small></div>
+            </div>
+            
+            <h5>User Interviews / Shadowing</h5>
             <p>My PM and I held 5 "shadow sessions" with future internal users, where they walked us through their day to day prior auth workflows. We asked many questions, learning not only from their expertise, but also from their pains and frustrations with the process.</p>
             <h5>Diagramming</h5>
             <p>I first mapped the process in as detailed a manner as possible, documenting nuances like each time the user copy/pasted a piece of info and where they navigated to to find it. The result was a lengthy diagram that visually emphasizes the tediousness, but isn't helpful for getting the gist at a glance.</p>
