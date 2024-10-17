@@ -121,7 +121,7 @@ export default function PriorAuth(){
             <h4>Design Evolution: Internal</h4>
             <div className='right'>
             <h5>Layout & Editing</h5>
-            <p>Initially, I gravitated towards the UI patterns used in most of our internal workflows: slideouts (drawers) and modals. Knowing this project would involve a hefty implementation, I wanted to rely as much as possible on existing patterns and components.</p>
+            <p>Initially, I gravitated towards the UI patterns used in most of our internal workflows: slideouts (drawers) and modals. Knowing this project would involve a hefty implementation, I relied as much as possible on existing patterns and components.</p>
             <div className='img-wrap'>
                {/* <img src='./assets/search/mixpanel-graph.png' className='img-shadow' alt="mixpanel graph of search data" /> */}
                <small>image of lofi and initial slideouts</small>
@@ -132,7 +132,7 @@ export default function PriorAuth(){
                <small>image of full page design (without extra data?)</small>
             </div>
             <h5>Flexibility vs Guidance</h5>
-            <br/><p>Maintaining flexibility proved to be a surprisingly challenging goal. In most cases, I kept all fields editable, regardless of the request's status or the user's presumed step, which led to feedback that the flow felt too open ended and without guidance.</p>
+            <br/><p>Maintaining flexibility proved to be a surprisingly challenging goal. In most cases, I kept all fields editable, regardless of the user's presumed step, which led to feedback that the flow felt too open ended and without guidance.</p>
             <p>I experimented with dynamic CTAs to hint at likely next steps, but this neglected edge cases, and the copy felt misleading. This unlocked an important idea though: using the request's status to inform guidance on next steps.</p>
             <div className='img-wrap'>
                {/* <img src='./assets/search/mixpanel-graph.png' className='img-shadow' alt="mixpanel graph of search data" /> */}
@@ -141,12 +141,30 @@ export default function PriorAuth(){
             <p>After <strong>a lot</strong> of iteration, I landed on this floating, fixed "Next steps" callout. Considerations for this seemingly simple component included:</p>
             <ul>
                <li><p><strong>Context:</strong> No in-page position seemed quite right, as it's dynamic content can refer to various sections. Rather than being part of the page, this positioning lets it act as <span className='highlight'>commentary on the page itself.</span></p></li>
-               <li><p><strong>Prominence:</strong> The floating also position lets it stand out without interrupting the user's flow or the page hierarchy. It's also collapsible for the users more accustomed with the process.</p></li>
+               <li><p><strong>Prominence:</strong> The floating position also lets it stand out without interrupting the user's flow or the page hierarchy. It's also collapsible for the users more accustomed with the process.</p></li>
                <li><p><strong>Implementation:</strong> Our design system doesn't have this exact component, but I kept scope manageable by using our existing banner and announcement components as foundations.</p></li>
             </ul>
             <div className='img-wrap'>
                {/* <img src='./assets/search/mixpanel-graph.png' className='img-shadow' alt="mixpanel graph of search data" /> */}
                <small>carousel: gif of scrolling with "next steps", status mapping, layout iterations</small>
+            </div>
+            <h5>Data Entry Interactions</h5>
+            <p>I came upon an interesting interaction challenge when designing the first step of the flow: marking requirements. At this step, the only column the user adjusts is "Auth required?" and <span className='highlight'>it's not uncommon that none are required.</span> This surfaces an odd pattern where the user would...</p>
+            <ol>
+               <li>enter Edit mode</li>
+               <br/><li>make <strong>no updates</strong> (no codes are required, and the default value of a checkbox is "false")</li>
+               <br/><li>save "changes" (having done nothing)</li>
+            </ol>
+            <p>Not only is this a very uncomfy and unintuitive UX, it also poses an implementation challenge: how can we distinguish between a user indicating that there are no requirements and them simply entering Edit mode and exiting without making changes?</p>
+            <p>I experimented with numerous selection components to replace the checkboxes, including dropdowns, which would allow for an initial "null" state. Although this helps clarify the action of selection, it directly opposes my "efficiency" goal by doubling the number of clicks in this step. Having shadowed these users through this and other workflows, I know how quickly unnecessary clicks build up in a day, and I felt adamant that we not add to that.</p>
+            <div className='img-wrap'>
+               {/* <img src='./assets/search/mixpanel-graph.png' className='img-shadow' alt="mixpanel graph of search data" /> */}
+               <small>image of dropdowns and toggles</small>
+            </div>
+            <p>Ultimately, the solution I came up with is a "select all" (or rather, "select none") pattern. This gives the user <span className='highlight'>an explicit action to take with minimal clicks.</span> And, it gives engineers a concrete indicator to base logic on.</p>
+            <div className='img-wrap'>
+               {/* <img src='./assets/search/mixpanel-graph.png' className='img-shadow' alt="mixpanel graph of search data" /> */}
+               <small>image of deselect all</small>
             </div>
             </div>
             </section>
