@@ -293,6 +293,15 @@ a{
   letter-spacing: 0.07rem;
 }
 
+/* .nav-tab-bar{
+  position: sticky;
+  top: 65px;
+  width: 100%;
+  background: white;
+  padding: 1rem;
+  z-index: 100;
+} */
+
 /* footer */
 .footer-wrap{
   z-index: 10;
@@ -992,15 +1001,24 @@ main{
   place-items: center;
 }
 
+.scrollable-img{
+  overflow-y: scroll;
+  height: 30rem;
+}
+
 .img-wrap img{
   width: 90%;
   min-width: 300px;
+  margin-bottom: 2rem;
+}
+
+.img-wrap small{
+  margin-bottom: 2rem;
 }
 
 .img-shadow{
   box-shadow: 0 4px 24px rgba(0,0,0,0.15);
   border-radius: 10px;
-  margin-bottom: 2rem;
 }
 
 .back-to-back-img{
