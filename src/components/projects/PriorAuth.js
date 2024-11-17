@@ -48,7 +48,7 @@ export default function PriorAuth(){
          <section id='tldr'>
             <h6>I designed the migration of our psychological testing request process from Asana tickets to a form in the provider portal and an internal data entry workflow.
             <br/><br/>The biggest challenges were balancing flexibility and guidance for internal users and designing intuitive interactions for multi-step data entry.
-            <br/><br/>The MVP of this project is estimated to save ___ once released and lays groundwork for automating even more of the prior auth process in the future.</h6>
+            <br/><br/>The MVP of this project is estimated to save 40 hours of internal work per week once released and lays groundwork for automating even more of the prior auth process in the future.</h6>
 
             <Link to="/prior-authorizations/#case-study"><a className='styled'>read the case study<img src='./assets/search/arrow-down-plain.svg' className='link-arrow' alt="down arrow" /></a></Link>
          </section>
@@ -82,9 +82,7 @@ export default function PriorAuth(){
             <h4 id='research'>Research &amp; Diagramming</h4>
             <div className='right'>
             <h6>Realizing that prior authorizations were a complex, multi-team effort, I started by mapping out the existing processes. I believe this step is absolutely crucial: not only did it help me learn the many nuances, but the diagrams I made also became an invaluable resource for giving engineers, stakeholders, and design teammates a quick (or thorough) rundown.</h6>
-            <div className='learning-outer'>
-               <div className='learning-inner'>&#128173; <small>Designing in the world of insurance and internal tools, I've learned it's not enough for me to be intimately familiar with a workflow; I also need to be able to distill that nuance down and communicate it in, for example, a 20 minute design critique. And one thing's for sure: <span className='highlight'>visuals &#x1F44F; always &#x1F44F; help &#x1F44F;</span></small></div>
-            </div>
+               <div className='learning'><span className='learning-emoji'>&#128173;</span> <small>Designing in the world of insurance and internal tools, I've learned it's not enough for me to be intimately familiar with a workflow; I also need to be able to distill that nuance down and communicate it in, for example, a 20 minute design critique. And one thing's for sure: <span className='highlight'>visuals &#x1F44F; always &#x1F44F; help &#x1F44F;</span></small></div>
             
             <h5>User Interviews / Shadowing</h5>
             <p>My PM and I held 5 "shadow sessions" with future internal users, where they walked us through their day to day prior auth workflows. We asked many questions, learning not only from their expertise, but also from their pains and frustrations with the process.</p>
@@ -93,7 +91,7 @@ export default function PriorAuth(){
             <iframe className='figjam-iframe' src="https://embed.figma.com/board/TSAiQYZMeqWSLxH1cRTh8l/Prior-auth-workflow%3A-zoomed-in?node-id=0-1&embed-host=share" allowFullScreen></iframe>
             <br/><br/><p>Ultimately, I distilled those down to a "zoomed out" version that captures the key steps and decision points.</p>
             <iframe className='figjam-iframe-short' src="https://embed.figma.com/board/ySq6RGzgUPTiZbgomw2S4b/Prior-auth-workflow%3A-zoomed-out?node-id=0-1&embed-host=share" allowFullScreen></iframe>
-            <h5>Some initial learnings from our research:</h5>
+            <h5>Some initial learnings from research:</h5>
             <table className='research-table'>
                <tbody>
                <tr>
@@ -164,7 +162,7 @@ export default function PriorAuth(){
                      </div>
                   </SwiperSlide>
                </Swiper>
-            <h5>Data Entry Interactions</h5>
+            {/* <h5>Data Entry Interactions</h5>
             <p>I came upon an interesting interaction challenge when designing the first step of the flow: marking requirements. At this step, the only column the user adjusts is "Auth required?" and <span className='highlight'>it's not uncommon that none are required.</span> This surfaces an odd pattern where the user would...</p>
             <ol>
                <li>enter Edit mode</li>
@@ -174,14 +172,12 @@ export default function PriorAuth(){
             <p>Not only is this a very uncomfy and unintuitive UX, it also poses an implementation challenge: how can we distinguish between a user indicating that there are no requirements and them simply entering Edit mode and exiting without making changes?</p>
             <p>I experimented with numerous selection components to replace the checkboxes, including dropdowns, which would allow for an initial "null" state. Although this helps clarify the action of selection, it directly opposes my "efficiency" goal by doubling the number of clicks in this step. Having shadowed these users through this and other workflows, I know how quickly unnecessary clicks build up in a day, and I felt adamant that we not add to that.</p>
             <div className='img-wrap'>
-               {/* <img src='./assets/search/mixpanel-graph.png' className='img-shadow' alt="mixpanel graph of search data" /> */}
                <small>image of dropdowns and toggles</small>
             </div>
             <p>Ultimately, the solution I came up with is a "select all" (or rather, "select none") pattern. This gives the user <span className='highlight'>an explicit action to take with minimal clicks.</span> And, it gives engineers a concrete indicator to base logic on.</p>
             <div className='img-wrap'>
-               {/* <img src='./assets/search/mixpanel-graph.png' className='img-shadow' alt="mixpanel graph of search data" /> */}
                <small>image of deselect all</small>
-            </div>
+            </div> */}
             </div>
             </section>
             </ScrollAnimation>
@@ -250,10 +246,8 @@ export default function PriorAuth(){
             <h5>Scoping</h5>
             <p>My PM and I worked together early on to define 3 milestones for this project, considering what a large design and engineering effort it would be. Each milestone could stand on its own and would make progress toward an ideal state.</p>
             <p>I also documented detailed user stories that the engineers used to estimate initial levels of effort and a rough timeline. However, almost all our engineers were quite new to the codebase, being recent hires at the time, and our newly-formed team had gaps in our process. Partway through the project, we realized these factors had led to a significant underestimation of LOE.</p>
-            <p>Luckily, our tight communication loop helped us react quickly: I worked with our lead FE engineer and engineering manager to identify lower impact, higher effort items that weren't essential for release, and reduced the time to MVP by ____.</p>
-            <div className='learning-outer'>
-               <div className='learning-inner'>&#128173; <small><span className='highlight'>I so appreciated the team pushing back on me</span> on the point of scope. At first, I had a hard time removing items from the MVP, but I then saw that we could make an impact significantly sooner while still working to deliver the whole scope iteratively. Being so familiar with the users' needs and what they could use a workaround for was extremely helpful here. In the future I plan to have more ruthless prioritization discussions with my PM early on.</small></div>
-            </div>
+            <p>Luckily, our tight communication loop helped us react quickly: I worked with our lead FE engineer and engineering manager to identify lower impact, higher effort items that weren't essential for release, and reduced the time to MVP launch by at least one month.</p>
+               <div className='learning'>&#128173; <small><span className='highlight'>I so appreciated the team pushing back on me</span> on the point of scope. At first, I had a hard time removing items from the MVP, but I then saw that we could make an impact significantly sooner while still working to deliver the whole scope iteratively. Being so familiar with the users' needs and what they could use a workaround for was extremely helpful here. In the future I plan to have more ruthless prioritization discussions with my PM early on.</small></div>
             </div>
             </section>
             </ScrollAnimation>
@@ -276,12 +270,7 @@ export default function PriorAuth(){
             <section className='case-study-section'>
             <h4>Measuring Success</h4>
             <div className='right'>
-            <p>It’s tough to quantify the success of this feature for a couple reasons:</p>
-            <ul>
-               <li><p>Users who enter a search are more likely to know what they’re looking for, so comparing conversion with those who don’t enter a search would be misleading</p></li>
-               <li><p>In general, conversion through search isn’t very meaningful, since we show results for multiple categories that wouldn’t lead to a purchase (Blog, DIY, Help, and More)</p></li>
-            </ul>
-            <p>That being said, one thing we know for sure is that <span className='highlight'>the number of people searching the site has nearly <b>quadrupled</b></span> with the addition of Sitewide Search. The individual searches in Store, Blog, and DIYs account for a combined average of <b>219</b> searches per day, compared to Sitewide Search’s average of <b>839</b>.</p>
+            <p>This project is currently in development, but we plan to measure success by 1) monitoring the time to complete prior authorization tasks and 2) collecting feedback regularly from internal users.</p>
             </div>
             </section>
             </ScrollAnimation>
@@ -292,9 +281,6 @@ export default function PriorAuth(){
                <div className='right'>
                   <h5>Learnings</h5>
                   <p>I was really excited to grow my diagramming skills with this project, and I've since learned that I can even take this a step further. Although I was thorough with my mapping, I was primarily focused on migrating those processes into the product 1:1 (as they existed previously). My key assumption being that those existing processes were the "right" way to do things. I received great feedback that I could've looked more closely for gaps or inefficiencies in the processes and strived to make the workflow even better in the product.</p>
-
-                  <h5>Challenges</h5>
-                  <p>I also got great experience writing scripts and preparing prototypes for user tests. These tests came with their fair share of frustration and troubleshooting as I learned how to communicate to participants things as simple as what screen they should be on (without being able to talk to them in real time).<br/><br/>There were also some technical limitations in the search functionality, especially around searching for subscriptions. I had hoped to show results if a user searched for a box in a given subscription, even if that particular box wasn’t featured on the site. However, the PM and devs I worked with determined that this kind of mapping would be a lot of manual work, so we had to cut it out of the scope for the time being. (Maybe one day!)</p>
                </div>
             </section>
             </ScrollAnimation>

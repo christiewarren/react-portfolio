@@ -70,8 +70,7 @@ h4{
 
 h5{
   font-size: 1.2rem;
-  font-style: italic;
-  font-weight: 400;
+  font-weight: 800;
   margin-bottom: 0;
   margin-top: 3rem;
   display: inline-block;
@@ -934,7 +933,7 @@ main{
 }
 
 #tldr, .section-divider{
-  width: 60%;
+  width: 100%;
   margin: auto;
 }
 
@@ -945,7 +944,8 @@ main{
 }
 
 #tldr h6{
-  margin-top: 4rem;
+  margin: 4rem auto auto auto;
+  width: 50%;
 }
 
 #tldr button{
@@ -968,22 +968,15 @@ main{
   margin-top: 0;
 }
 
-.learning-outer{
-  position: relative;
-  border-radius: 10px;
-  padding: .25rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(140deg, rgba(255,251,202,0.85) 0%, rgba(215,249,255,0.85) 50%, rgba(238,231,255,0.85) 100%);
-  margin-top: 2rem;
-}
-
-.learning-inner{
+.learning{
   width: 100%;
   padding: 1rem;
   background: white;
-  border-radius: 8px;
+  border-radius: 10px;
+  margin-top: 2rem;
+  background-color: var(--medium-blue);
+  line-height: 100%;
+  position: relative;
 }
 
 .subs-caption{
@@ -1185,13 +1178,25 @@ main{
   }
 
   #tldr, .section-divider{
-    width: 75%;
+    width: 100%;
+  }
+
+  #tldr h6{
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
 @media screen and (max-width: 768px) {
   #tldr, .section-divider{
     width: 85%;
+  }
+
+  #tldr h6{
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .right{
