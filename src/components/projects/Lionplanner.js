@@ -66,7 +66,7 @@ export default function Lionplanner(){
             
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
             <section className='case-study-section'>
-               <h4>A&nbsp;Closer&nbsp;Look at&nbsp;the&nbsp;Problem</h4>
+               <h4>A&nbsp;closer&nbsp;look at&nbsp;the&nbsp;problem</h4>
                <div className='right'>
                   <h5>Manual planning</h5>
                   <p>Students planning more than one semester ahead have to resort to using a spreadsheet or pen and paper to organize their plans, making this process unnecessarily time consuming.</p>
@@ -84,7 +84,7 @@ export default function Lionplanner(){
 
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
             <section className='case-study-section'>
-               <h4>LionPlanner's Primary&nbsp;Users</h4>
+               <h4>LionPlanner's primary&nbsp;users</h4>
                <div className='right'>
                   <h6>Based on students I knew and spoke to, I defined two main users to focus on:</h6>
                   <h5>1. The In Depth Planner</h5>
@@ -113,7 +113,7 @@ export default function Lionplanner(){
 
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
             <section className='case-study-section'>
-               <h4>Functionality &amp; UX Goals</h4>
+               <h4>Functionality &amp; UX goals</h4>
                <div className='right'>
                   <h6>Together, our team determined the functionality we'd aim to include in LionPlanner in order to make it an improvement on most students' course planning processes:</h6>
                   <h5><span className='highlight'>Automate initial plan</span></h5>
@@ -128,7 +128,7 @@ export default function Lionplanner(){
 
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
             <section className='case-study-section'>
-               <h4>Design&nbsp;Process &amp; Progression</h4>
+               <h4>Design&nbsp;process &amp; progression</h4>
                <div className='right'>
                   <h6>LionPlanner was my first experience with UI and UX design, so it was a <em>tremendous</em> experience for learning and growth.</h6> 
                   <p>During this process I gained knowledge around best practices and standards and started developing a better sense of what "good" UI design looked like. My sense of typography and color usage for web also improved, as I learned to apply my graphic design knowledge to a new medium.</p> 
@@ -181,7 +181,7 @@ export default function Lionplanner(){
 
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
             <section className='case-study-section'>
-               <h4>Feature&nbsp;Design</h4>   
+               <h4>Feature&nbsp;design</h4>   
                <div className='right'>
                   <h5>Semesters</h5>
                   <p>When designing the semesters, I took visual inspiration from the university-provided recommended course plans to increase familiarity in the UI. This basic design was consistent from the very first sketch, because a low learning curve was one of our priorities.
@@ -195,12 +195,12 @@ export default function Lionplanner(){
                      <small>LionPlanner semester</small>
                   </div>
 
-                  <h5 className='feature'>Tab Bar</h5>
+                  <h5 className='feature'>Tab bar</h5>
                   <p>I originally designed the lefthand panel to have accordion sections, but iterated into a vertical tab bar. This design allows for <span className='highlight'>more vertical real estate for courses</span> (especially important for those browsing many at a time), and establishes a better hierarchy.</p>
                   <p>While we didn't have time to add this functionality, ideally, this panel would be resizable and fully collapsible.</p>
                   <p>This was by far the part of the app I spent the most time iterating on, because it includes such important and extensive resources. It needed to have enough space to fully explore them, without detracting too much from the plan itself.</p>
 
-                  <h5 className='feature'>Course Catalog Search</h5>
+                  <h5 className='feature'>Course catalog search</h5>
                   <p>As part of the effort to consolidate resources, we included a feature to search Penn State's entire course catalog. Students can view the descriptions of any course and what requirement it satisfied. This feature would be especially helpful for the "In Depth Planner" to find courses outside of their major.</p>
                   <p>Like any other courses that appear in this sidebar, these can be <span className='highlight'>dragged and dropped</span> into the course plan.</p>
                   <div className='img-wrap'>
@@ -208,7 +208,7 @@ export default function Lionplanner(){
                      <small>Search the full course catalog and view course descriptions</small>
                   </div>
                   
-                  <h5 className='feature'>Still Needed &amp; Prerequisite Warnings</h5>
+                  <h5 className='feature'>Still needed &amp; prerequisite warnings</h5>
                   <p>If a student deletes a required course, we add it to the Still Needed tab as a reminder. Students can delete these courses if they know they've gotten credit for them in some way the app isn't aware of.
                   </p><br/>
                   <small>If I revisited this design, I'd add a small notification-style indicator to the tab, so students can tell easily if they have missing courses.</small>
@@ -220,7 +220,7 @@ export default function Lionplanner(){
                      <small>"Still Needed" course (left) and highlighted missing prerequisite (right)</small>
                   </div>
 
-                  <h5 className='feature'>Similar Courses &amp; Suggested Alternatives</h5>
+                  <h5 className='feature'>Similar courses &amp; suggested alternatives</h5>
                   <p>We included Similar Courses for students like the "In Depth Planner" who want to <span className='highlight'>add classes based on their interest,</span> regardless of whether they meet a requirement.</p>
                   <p>Suggested Alternatives are courses that meet the same requirements as the selected course and can be swapped with a simple click. These are great for students like the "Degree Seeker," who want to <span className='highlight'>know their options within major requirements.</span></p>
                   <div className='multi-img-wrap img-wrap'>
@@ -245,7 +245,7 @@ export default function Lionplanner(){
             <section className='case-study-section reflection'>
                <h4>Reflection</h4>
                <div className='right'>
-                  <h5>Next Time...</h5>
+                  <h5>Next time...</h5>
                   <p>As a large team of busy college students, we faced many challenges with communication. If we were to do the project over, I would make sure we established clear roles, including how much each member would like to contribute and general expectations for communication. Navigating the conflicts that arose was absolutely a learning experience that changed the way I now approach collaboration.</p>
                   <p>Since this was my first UX project, there are certainly gaps in my process, especially around user testing and research. Lots of decisions were based on assumptions of what most students would want without conducting tests or surveys to verify. I'd love to revisit LionPlanner and incorporate user feedback and the design knowledge I've gained since then!</p>
                   <h5>Impact</h5>

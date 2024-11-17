@@ -90,7 +90,7 @@ export default function LearnThisInstead(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Course Materials</h4>
+            <h4>Course materials</h4>
             <div className='right'>
                <h5>Prompts</h5>
                <h6>I wrote 26 prompts, each covering a CSS property, and divided them into 4 chapters: <span className='highlight'>Basic Styling, Sizing, Text, and Hover States</span> (with the intention of including Positioning and Images if I were to publish the extension).</h6>
@@ -110,7 +110,7 @@ export default function LearnThisInstead(){
          <section className='case-study-section reflection'>
             <h4>Reflection</h4>
             <div className='right'>
-               <h5>Next Time...</h5>
+               <h5>Next time...</h5>
                <p>I had to limit some aspects of this project for scope including the number of prompts and copy I wrote and the responsiveness of the site. If I were to publish the extension, I'd want to include an intro on the syntax and general usage of CSS and HTML as well as additional prompts and chapters. And, of course, responsiveness would be as crucial as on any site.</p>
             </div>
          </section>

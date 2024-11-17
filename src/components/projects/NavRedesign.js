@@ -81,7 +81,7 @@ export default function NavRedesign(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Research &amp; Benchmarking</h4>
+            <h4>Research &amp; benchmarking</h4>
             <div className='right'>
                <p>During my Sitewide Search project, I conducted extensive benchmarking, including navigation, since I placed Search in KiwiCo's navs. So, I was able to reuse much of that, but this time focused on hierarchy, navigation options (like Shop by Age), and organization.</p>
                <div className='img-wrap'>
@@ -96,16 +96,16 @@ export default function NavRedesign(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Primary Problems</h4>
+            <h4>Primary problems</h4>
             <div className='right'>
-               <h5><b>Hierarchy:</b> Mobile Menu</h5>
+               <h5><b>Hierarchy:</b> Mobile menu</h5>
                <p>The mobile menu lacked hierarchy almost entirely, using the same size gray, regular weight font for all dropdowns and links within them. <span className='highlight'>Users weren't guided</span> towards KiwiCo's primary offerings (subscriptions and Store products).</p>
-               <h5><b>Brand Alignment:</b> All</h5>
+               <h5><b>Brand alignment:</b> All</h5>
                <p>KiwiCo's brand is friendly, fun, playful, and caring, and none of the navigation really reflected this. All caps text in the mobile and desktop navs and unorganized links in the footers and mobile menu all contributed to an <span className='highlight'>unwelcoming, even intimidating environment,</span> which did not at all align with the rest of the site.</p>
-               <h5><b>Organization:</b> Footers &amp; Mobile Menu</h5>
+               <h5><b>Organization:</b> Footers &amp; mobile menu</h5>
                <p>Many links had been added to these areas over time without reorganization, leading to <span className='highlight'>repetitiveness and unnecessary links.</span> The worst instance of this was the Quick Links section with 14 links. Rather than being what was intended — a helpful assortment of most-needed links — it had become a catch-all of random ones.</p>
                <p>Not to mention, the mobile footer hadn't been adapted to hold this many links, so about <span className='highlight'>3/4 of the desktop links were excluded</span> (for about 70% of users).</p>
-               <h5><b>Responsiveness:</b> Desktop Nav &amp; Footer</h5>
+               <h5><b>Responsiveness:</b> Desktop nav &amp; footer</h5>
                <p>When resized, these areas didn't respond well, having <span className='highlight'>little to no outer margins and awkward spacing and overlapping,</span> which made the site feel unprofessional and dated.</p>
             </div>
          </section>
@@ -113,9 +113,9 @@ export default function NavRedesign(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Design Progression</h4>
+            <h4>Design progression</h4>
             <div className='right'>
-               <h5><b>Mobile Menu:</b> V1</h5>
+               <h5><b>Mobile menu:</b> V1</h5>
                <h6>One of the largest changes to the mobile menu was separating Subscription Lines (Our Lines here) and Store into their own section, as well as making them visually distinct.</h6>
                <p>This change guides users to KiwiCo's primary offerings. While the other links are still important, the majority of users will be looking for products, all of which can be found in these two accordions.</p>
                <p>I also changed the menu background from gray to white to create a more inviting, friendly feel and ensure the active states were accessible.</p>
@@ -124,7 +124,7 @@ export default function NavRedesign(){
                   <small>V1 mock with no organizational changes yet</small>
                </div>
 
-               <h5><b>Mobile Menu:</b> V2</h5>
+               <h5><b>Mobile menu:</b> V2</h5>
                <p>The visual design remained relatively consistent from my initial mocks, since I had thought through it thoroughly during benchmarking &amp; research, even starting during the Search project.</p>
                <p>However, as I got more comfortable, I started adding more visual interest to reflect our brand in certain areas:</p>
                <div className='multi-img-wrap img-wrap'>
@@ -133,12 +133,12 @@ export default function NavRedesign(){
                </div>
                <p>At this stage I also made adjustments to the spacing to ensure each link would have a large enough target area.</p>
 
-               <h5><b>Mobile Menu:</b> User Tests</h5>
+               <h5><b>Mobile menu:</b> User tests</h5>
                <p>My user tests mainly focused on ensuring that the new organization and hierarchy of links was intuitive, and that users could easily and quickly find what they needed.</p>
                <p>The primary learning from this test was that <span className='highlight'>users were confused by the "KiwiCo Content" section.</span> To address this, I changed the title to "DIY &amp; Blog" to be more straightforward.</p>
                <p>Fortunately, the tests didn't reveal any other major confusion, so we were able to move forward with this version after a few small changes.</p>
 
-               <h5><b>Mobile Menu:</b> V3 (first version A/B tested on the site)</h5>
+               <h5><b>Mobile menu:</b> V3 (first version A/B tested on the site)</h5>
                <p>Other changes I made before our first A/B test included:</p>
                <ul>
                   <li>Added Shop by Interest to the Store accordion</li>
@@ -157,7 +157,7 @@ export default function NavRedesign(){
                   <img src={'./assets/nav/menu-v3-account.jpg'} alt="menu v3 account accordion" className='sm-img img-shadow three'/>
                </div>
 
-               <h5><b>Desktop Nav:</b> V1</h5>
+               <h5><b>Desktop nav:</b> V1</h5>
                <h6>In my V1, I focused on improving the use of space and reducing crowding:</h6>
                <ul>
                   <li>Increased the max-width of the nav content</li>
@@ -177,7 +177,7 @@ export default function NavRedesign(){
                   <small>Desktop nav V1</small>
                </div>
 
-               <h5><b>Desktop Nav:</b> V2</h5>
+               <h5><b>Desktop nav:</b> V2</h5>
                <h6>In my V2 I defined new designs for the dropdown menus:</h6>
                <p>Initially, I didn't have plans to change much from the original dropdowns, but after exploring some more creative options in the mobile nav, I was inspired to go further on desktop.</p>
                <p>With more real estate, this seemed like a great opportunity for more visually engaging options for Subscriptions. I switched from a list to a grid, added a prominent photo for each one, and designed a hover state with a colored border and blue text.</p>
@@ -240,7 +240,7 @@ export default function NavRedesign(){
                <div className='img-wrap'>
                   <img src={'./assets/nav/new-links.jpg'} alt="new footer links" />
                </div>
-               <h5>Mobile Menu</h5>
+               <h5>Mobile menu</h5>
                <p>Similarly to the footer, I was able to remove multiple links from the mobile menu. Here, I removed the lengthy "Quick Links" section entirely after dispersing remaining links to appropriate sections, like the new "Gifting" section. I also changed "DIY Ideas" to "DIY &amp; Blog," giving the Blog much more prominence than before.</p>
             </div>
          </section>
@@ -260,9 +260,9 @@ export default function NavRedesign(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>A/B&nbsp;Tests</h4>
+            <h4>A/B&nbsp;tests</h4>
             <div className='right'>
-               <h5><b>Mobile Menu:</b> Variations 1 &amp; 2</h5>
+               <h5><b>Mobile menu:</b> Variations 1 &amp; 2</h5>
                <p>About a month after starting our mobile menu A/B test, my PM and I were seeing a mix of positive and negative numbers, but were specifically concerned about a 3.4% drop in visits to the subscription purchase flow (KiwiCo's main source of revenue).</p>
                <p>I proposed testing a variation with gray Subscription and Store accordion links instead of blue, to measure if the blue links were actually blending in with the nav.</p>
                <div className='multi-img-wrap img-wrap'>
@@ -271,7 +271,7 @@ export default function NavRedesign(){
                </div>
                <p>However, the gray links variation was marginally less successful, seeing a slight drop in purchase flow visits and subscription page visits.</p>
 
-               <h5><b>Mobile Menu:</b> Variations 3 &amp; 4</h5>
+               <h5><b>Mobile menu:</b> Variations 3 &amp; 4</h5>
                <p>For our third variation, our CPO suggested adding the "Home" link back to the menu, to test whether the loss in purchase flow views was due to users getting lost somewhere on the site.</p>
                <p>I also proposed testing a fourth variation alongside this, which would include each subscription's tagline to make choosing a sub to explore less overwhelming.</p>
                <div className='multi-img-wrap img-wrap'>
@@ -280,12 +280,12 @@ export default function NavRedesign(){
                </div>
                <p>While neither variation was actually able to produce an increase in purchase flow views from the original, variation 4 (subscription taglines) saw a slight increase from variation 1.</p>
                
-               <br/><br/><b>Winning Variation</b>
+               <br/><br/><b>Winning variation</b>
                <h6>After running A/B tests for four months, it was decided to roll out variation 4 of the mobile menu (added subscription taglines).</h6>
                <p>Unfortunately, I wasn't a part of this final decision, and I now know to make sure I have a more active roll in the future. Both my PM and I would've liked to test another variation to attempt an increase in purchase flow views, but there was a sentiment that we had too many A/B tests running on the site and needed to wrap some up.</p>
                <p>However, I hope to run another test at a better time, possibly adding a CTA into the Subscription accordion.</p>
 
-               <h5><b>Desktop Nav:</b> Variation 1</h5>
+               <h5><b>Desktop nav:</b> Variation 1</h5>
                <h6>After running this test for 53 days, we rolled out the first (and only) variation of the desktop nav, based on a positive impact on our primary metric (completed order) and a largely neutral one on other metrics.</h6>
                <p>The desktop nav test primarily saw only slight changes in either direction, but it trended positive in both completed order and Store product page views.</p>
 
@@ -298,7 +298,7 @@ export default function NavRedesign(){
                   <img src={'./assets/nav/desktop-footer-variation1.jpg'} className='img-shadow' alt="desktop footer variation 1" />
                </div>
 
-               <h5><b>Mobile Footer:</b> Variation 2</h5>
+               <h5><b>Mobile footer:</b> Variation 2</h5>
                <h6>Since the mobile footer had significantly increased in length from the original, we first tried moving the email signup to the top on mobile while we continued to let the desktop test run.</h6>
                <p>This change was a success, improving email capture from the original.</p>
                <p>However, it still saw concerning drops in completed order and views for completed order and subscription pages.</p>
@@ -328,7 +328,7 @@ export default function NavRedesign(){
                <h6>After running A/B tests for about four months, we decided to roll out variation 3 of the mobile footer.</h6>
                <p>While its difficult for footer tests to reach statistical significance, we were able to turn them around from consistently trending negative to consistently trending positive.</p>
 
-               <h5><b>Desktop Footer:</b> Variation 3</h5>
+               <h5><b>Desktop footer:</b> Variation 3</h5>
                <h6>Still seeing concerning numbers, specifically with a decrease in emails captured, we recently decided to run a test emphasizing email sign up more prominently. (this test is currently running)</h6>
                <div className='img-wrap'>
                   <img src={'./assets/nav/desktop-footer-variation3.jpg'} className='img-shadow' alt="desktop footer variation 3" />
@@ -339,7 +339,7 @@ export default function NavRedesign(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section class='case-study-section'>
-         <h4>Final&nbsp;Designs</h4>
+         <h4>Final&nbsp;designs</h4>
          <div className='right'>
             <h5>Mobile</h5>
             <Swiper

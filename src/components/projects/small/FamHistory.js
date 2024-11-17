@@ -52,7 +52,7 @@ export default function FamHistory(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Look&nbsp;&amp;&nbsp;Feel</h4>
+            <h4>Look&nbsp;&amp;&nbsp;feel</h4>
             <div className='right'>
                <p>Digitizing a traditionally very physical experience poses unique circumstances to design within. It’s important to me that the site feel nostalgic and connected to its physical counterparts, but not dated or aged.</p>
                <div className='img-wrap'>
@@ -75,7 +75,7 @@ export default function FamHistory(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Browsing Experience</h4>
+            <h4>Browsing experience</h4>
             <div className='right'>
                <p>Although we plan to launch the site with only about 100 photos and documents, our intention is to keep adding more and more over time (which could really take years with the amount of content we have). With this in mind, we’re allowing for multiple ways to explore and discover.</p>
                <p><b>Discovery points</b></p>
@@ -92,7 +92,7 @@ export default function FamHistory(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Early&nbsp;Mocks (V1ish)</h4>
+            <h4>Early&nbsp;mocks (V1-ish)</h4>
             <div className='right'>
                <Swiper
                   modules={[Navigation, Pagination]}

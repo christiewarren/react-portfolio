@@ -46,9 +46,9 @@ export default function MentorApp(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Research&nbsp;&amp; Planning</h4>
+            <h4>Research&nbsp;&amp; planning</h4>
             <div className='right'>
-               <h5>Initial Thoughts</h5>
+               <h5>Initial thoughts</h5>
                <p>The first part of my process was jotting down some initial thoughts and questions about the prompt and considerations I should plan on making.</p>
                <div className="img-wrap">
                   <img src={'./assets/mentor-app/initial-thoughts.jpg'} alt="written initial thoughts" className='img-shadow'/>
@@ -75,7 +75,7 @@ export default function MentorApp(){
                   <li>Provide both groups with transparent and flexible relationships.</li>
                </ul>
 
-               <h5>Organization &amp; Brainstorming</h5>
+               <h5>Organization &amp; brainstorming</h5>
                <p>My next step was organizing all the information I had about my users, which was largely info gathered in the surveys.</p>
                <div className="img-wrap">
                   <img src={'./assets/mentor-app/user-specs.jpg'} alt="user information" className='img-shadow'/>
@@ -104,7 +104,7 @@ export default function MentorApp(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Early&nbsp;Designs</h4>
+            <h4>Early&nbsp;designs</h4>
             <div className='right'>
                <h5>Sketches</h5>
                <p>My next move was sketching some wireframe flows on my (well-loved) whiteboard. The flows are fairly similar for mentors vs. mentees, but I still chose to sketch a separate flow for each so that I could distinguish them better in my mind and get a more concrete idea of the differences.</p>
@@ -124,7 +124,7 @@ export default function MentorApp(){
                   <li>Meetups &amp; Time Log</li>
                </ul>
                
-               <h5>Lo-Fis</h5>
+               <h5>Lo-fis</h5>
                <p>Next, I created a low fidelity mockups of the application's flow. At this stage I chose to mock up only the flow for mentees. Like I said earlier, the two flows are very similar, and I got a good enough grasp on the differences from wireframing, so making a whole other flow seemed unnecessary, and a poor use of time.</p>
                <div className="img-wrap">    
                   <img src={'./assets/mentor-app/lowfis.jpg'} alt="lofi designs" className='img-shadow'/>
@@ -143,7 +143,7 @@ export default function MentorApp(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Visual&nbsp;Design</h4>
+            <h4>Visual&nbsp;design</h4>
             <div className='right'>
                <p>When considering the visual design of this app, my biggest priority was setting it apart from traditional school-run apps, as these tend to be a bit dated with overdone color palettes (at least at Penn State). I wanted to make this app seem separate from the school, so that students would be more interested in it.</p>
                <p>I designed this Material UI using a modern color palette, rounded elements, and visually interesting, yet simple icons. These choices mimic the way I hope students will feel when using the app: comfortable, but eager to be bold. </p>
@@ -156,9 +156,9 @@ export default function MentorApp(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>UX&nbsp;Highlights</h4>
+            <h4>UX&nbsp;highlights</h4>
             <div className='right'>
-               <h5>Browsing &amp; Profiles</h5>
+               <h5>Browsing &amp; profiles</h5>
                <p>Students' answers in my surveys showed that some of the most important considerations to both under and upperclassmen are major and personality when choosing a mentor(ee). So, I highlighted bios and descriptions in the browse view, allowing users to get a good idea of these aspects quickly. Users can also filter by major or interest on the browse page, if they so choose.</p>
                <div className="img-wrap">    
                   <img src={'./assets/mentor-app/browse.png'} alt="browse screen"/>
@@ -172,13 +172,13 @@ export default function MentorApp(){
                   <img src={'./assets/mentor-app/messages.png'} alt="messaging screens"/>
                </div>
 
-               <h5>Quick Questions</h5>
+               <h5>Quick questions</h5>
                <p>The main goal of the Quick Questions page is to help those who are hesitant get their feet wet before they make a commitment. For mentees, this looks like asking a question or two and seeing the benefit of connecting with upperclassmen. For mentors, it can look like testing out a mini-mentorship by answering a question and seeing that it doesn't have to be a formal, every day commitment.</p>
                <div className="img-wrap">    
                   <img src={'./assets/mentor-app/quick-questions.png'} alt="quick questions screen"/>
                </div>
 
-               <h5>A Note on Mentors</h5>
+               <h5>A note on mentors</h5>
                <h6>As I mentioned earlier, there would be some slight differences in the way mentors experience the app. The main differences include the ability to:</h6>
                <ul>
                   <li>View both mentor and mentee profiles</li>
@@ -193,7 +193,7 @@ export default function MentorApp(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Out of Scope Improvements</h4>
+            <h4>Out of scope improvements</h4>
             <div className='right'>
                <h6>Throughout this exercise, I had multiple brainstorming sessions on one obstacle: how to encourage college students to use this app. With exceptions, many college students are reluctant to do something if the benefits are not immediately clear.</h6>
                <p>One potential solution to this dilemma is making this app more social. I mean this in the same way that when a college student hears a song or sees a meme that reminds them of a friend, they want to share it with them. Placing a "Recommend to a Friend" option on each mentor or mentee's profile would serve as a reminder that it could be kind of fun to look through profiles until you find one that reminds you of a friend.</p>

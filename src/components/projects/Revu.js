@@ -60,17 +60,17 @@ export default function Revu(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Understanding the Problem</h4>
+            <h4>Understanding the problem</h4>
             <div className='right'>
-               <h5>User Interviews</h5>
+               <h5>User interviews</h5>
                <h6>Initially our idea was to make Revu a tool for students to study with and stay focused while reading out of class assignments. After interviewing multiple students and speaking with professors, it became clear that this tool would be <span className='highlight'>much more impactful in the hands of teachers.</span></h6>
                <p>We learned that the problem lies with students not reading out of class in the first place, not with their studying habits. This phase showed us that it would be tough to motivate students to read, unless their teachers got involved.</p>
             
-               <h5>Problem Statement</h5>
+               <h5>Problem statement</h5>
                <h6>Based on the feedback in the user interviews, we defined the primary problem we would aim to address:</h6>
                <p>A significant majority of students do not complete out of class reading assignments, and the options instructors have to remedy this take valuable time from them and from their class time.</p>
 
-               <h5>A Closer Look at This Problem</h5>
+               <h5>A closer look at this problem</h5>
                <p><b>Students don't read</b></p>
                <p>We found that studies have shown that 70% of students do not complete out of class reading assignments, causing them to miss out on course content and reading skill development.</p>
 
@@ -85,7 +85,7 @@ export default function Revu(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Defining&nbsp;a Solution</h4>
+            <h4>Defining&nbsp;a solution</h4>
             <div className='right'>
                <h5>Incentivization</h5>
                <h6>One of the biggest obstacles to designing Revu was determining how to incentivize students to do these readings.</h6>
@@ -102,7 +102,7 @@ export default function Revu(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Revu's&nbsp;Primary Users</h4>
+            <h4>Revu's&nbsp;primary users</h4>
             <div className='right'>
                <h5>1. The Quick Quizzer</h5>
                <p>This teacher has little time to spare, but wants to know which of their students are actually completing readings. They can tell many students aren't, but don't want to use class time to give quizzes. The reading content for this class usually reiterates content from lectures, so questions can be largely pulled from the text to test students' memory. </p>
@@ -130,7 +130,7 @@ export default function Revu(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Functionality &amp; UX Goals</h4>
+            <h4>Functionality &amp; UX goals</h4>
             <div className='right'>
                <h6>Together, our team determined the functionality we'd aim to include in LionPlanner in order to make it an improvement on most students' course planning processes:</h6>
                <h5><span className='highlight'>Relieve teachers of extra tasks</span></h5>
@@ -145,16 +145,16 @@ export default function Revu(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Feature&nbsp;Design</h4> 
+            <h4>Feature&nbsp;design</h4> 
             <div className='right'>
-               <h5>Passage Entry &amp; Quiz Preferences</h5>
+               <h5>Passage entry &amp; quiz preferences</h5>
                <p>Teachers can easily paste a reading here from a textbook PDF, article etc., starting the <span className="highlight">fast, hands-off process.</span></p>
                <p>Each quiz has a title and class associated with it, and teachers can choose the number of distractors per question.</p>
                <div className="img-wrap">
                   <img src={'./assets/revu/input.jpg'} alt="passage entry page" className='img-shadow'/>
                </div>
 
-               <h5>Editable Questions</h5>
+               <h5>Editable questions</h5>
                <p>Easy editing is especially important, since Revu is powered by AI. This allows teachers to easily <span className="highlight">fix any small errors</span> that may occur while our algorithms are in development and is especially useful for the "Insight Seeker" to <span className="highlight">edit the quiz in depth.</span></p>
                <div className="img-wrap">
                   <img src={'./assets/revu/editable-question.png'} alt="editable question" className='img-shadow sm-img'/>
@@ -169,13 +169,13 @@ export default function Revu(){
                   <img src={'./assets/revu/where-from.jpg'} alt="where is this from highlight" className='img-shadow'/>
                </div>
 
-               <h5>Create New Questions</h5>
+               <h5>Create new questions</h5>
                <p>Teachers can add questions simply by filling in a blank template question. This is designed with the "Insight Seeker" in mind, allowing them to <span className="highlight">ask critical thinking questions</span> in addition to the recall-based ones Revu provides.</p>
                <div className="img-wrap">
                   <img src={'./assets/revu/new-question.png'} alt="new question template" className='img-shadow sm-img'/>
                </div>
 
-               <h5>Quiz Insights Dashboard</h5>
+               <h5>Quiz insights dashboard</h5>
                <p><b>A. Student List</b></p>
                <p>A list of who has completed the quiz, their score, and when they completed it. Satisfying the need both teachers have to <span className="highlight">know which students are participating.</span></p>
                <p><b>B. Frequently Incorrect Questions</b></p>
@@ -195,7 +195,7 @@ export default function Revu(){
          <section className='case-study-section reflection'>
             <h4>Reflection</h4>
             <div className='right'>
-               <h5>Next Time...</h5>
+               <h5>Next time...</h5>
                <p>The pivoting we did during this project emphasized to me the importance of user research, and how it can change the direction of a product. If I could redo this process, next time I would do more research sooner, to make sure the design is steered in the "right" direction from the start.</p>
                <div className='img-wrap'>
                   <img src={'./assets/revu/pitch.jpg'} alt="Revu team" className='img-shadow sm-img'/>

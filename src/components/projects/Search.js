@@ -74,7 +74,7 @@ export default function Search(){
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section class='case-study-section'>
 
-            <h4>Research &amp; Benchmarking</h4>
+            <h4>Research &amp; benchmarking</h4>
             <div className='right'>
             <p>Considering the importance of familiarity and the relative complexity of KiwiCo’s searchable content** I started with some extensive benchmarking. I <span className='highlight'>reviewed search features on over 20 websites and apps</span> and noted consistencies and aspects that would or wouldn’t work well for KiwiCo’s search.</p>
             <br/><small>** subscription lines, Store products, DIY ideas, Blog posts, Help articles, and miscellaneous pages</small>
@@ -118,7 +118,7 @@ export default function Search(){
 
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
             <section class='case-study-section'>
-            <h4>User Testing</h4>
+            <h4>User testing</h4>
             <div className='right'>
             <h5>Round 1&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;</h5>
             <a href='./assets/search/user-test-script1.pdf' target='blank' className='styled sm'>view script PDF</a>
@@ -144,7 +144,7 @@ export default function Search(){
 
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
             <section class='case-study-section'>
-               <h4>Final&nbsp;Designs</h4>
+               <h4>Final&nbsp;designs</h4>
                <div className='right'>
                   <h5>Mobile</h5>
                   <Swiper
@@ -249,7 +249,7 @@ export default function Search(){
 
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
             <section class='case-study-section'>
-            <h4>Measuring Success</h4>
+            <h4>Measuring success</h4>
             <div className='right'>
             <p>It’s tough to quantify the success of this feature for a couple reasons:</p>
             <ul>

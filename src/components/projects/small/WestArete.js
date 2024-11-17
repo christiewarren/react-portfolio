@@ -59,7 +59,7 @@ export default function WestArete(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Defining&nbsp;the Problems</h4>
+            <h4>Defining&nbsp;the problems</h4>
             <div className='right'>
                <h5>Students don’t know how to learn</h5>
                <p>Many students are unaware of the best way to learn based on their individual traits. This often leads to favoring of memorization over comprehension.</p>
@@ -80,7 +80,7 @@ export default function WestArete(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Primary&nbsp;Users</h4>
+            <h4>Primary&nbsp;users</h4>
             <div className='right'>
                <h6>Based on our clients' research, we focused on two users groups:</h6>
                <h5>1. The Lost Learner</h5>
@@ -109,14 +109,14 @@ export default function WestArete(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Goals&nbsp;for Our&nbsp;LMS</h4>
+            <h4>Goals&nbsp;for our&nbsp;LMS</h4>
             <div className='right'>
                <h6>With these user groups in mind, I worked with my project manager to define three main goals for our LMS to accomplish in order to meet their needs:</h6>
-               <h5><span className='highlight'>Personalize Learning</span></h5>
+               <h5><span className='highlight'>Personalize learning</span></h5>
                <p>Allow students to take whatever path is best for them, rather than following a standard one made for the whole class</p>
-               <h5><span className='highlight'>Answer “How Am I Doing?”</span></h5>
+               <h5><span className='highlight'>Answer “how am I doing?”</span></h5>
                <p>Give students an idea of their progress and success in learning at a glance so they can monitor it easily</p>
-               <h5><span className='highlight'>Incorporate Research</span></h5>
+               <h5><span className='highlight'>Incorporate research</span></h5>
                <p>Make this LMS valuable through providing research-based techniques and lessons</p>
             </div>
          </section>
@@ -124,14 +124,14 @@ export default function WestArete(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Scope&nbsp;&amp;&nbsp;Feature Definition</h4>
+            <h4>Scope&nbsp;&amp;&nbsp;feature definition</h4>
             <div className='right'>
                <h6>Working alongside Natalie (the PM) and our clients to create a scope and definition for this application was a major part of the project. Our clients came in with lots of concrete research and a broad idea of what the application could be, so we worked to hone in on the most feasible and impactful experience that best reflected their mission.</h6>
                <div className="img-wrap">
                   <img src={'./assets/west-arete/wireframes.jpg'} alt="wireframe sketches" className='img-shadow'/>
                </div>
 
-               <h5>Dash Courses</h5>
+               <h5>Dash courses</h5>
                <h6>Basic stats that inform the student about their learning without overwhelming them with complex data</h6>
                <p>These stats provide a <span className="highlight">simple, personalized interface</span> for the "Lost Learner" while giving the "Pro Learner" an <span className="highlight">overview of learning progression.</span>
                <br/><br/>Students can also click "Course Stats &amp; Progress" to learn about the details.</p>
@@ -139,21 +139,21 @@ export default function WestArete(){
                   <img src={'./assets/west-arete/dashboard.jpg'} alt="LMS dashboard" className='img-shadow'/>
                </div>
 
-               <h5>Learning Skillsets</h5>
+               <h5>Learning skillsets</h5>
                <h6>Students are prompted to complete learning skillsets that provide them with the tools to learn better</h6>
                <p>This will guide the "Lost Learner" to <span className="highlight">become a better learner</span> and the "Pro Learner" can explore other skillsets to <span className="highlight">gain new learning tools.</span></p>
                <div className="img-wrap">
                   <img src={'./assets/west-arete/questionnaire.jpg'} alt="learning skillset questionnaire" className='img-shadow'/>
                </div>
 
-               <h5>Course Concept Map</h5>
+               <h5>Course concept map</h5>
                <h6>A visualization of students' curricula, allowing for freedom in exploration of topics</h6>
                <p>The LMS allows for more self-directed learning aimed to <span className="highlight">make learning more enjoyable</span> for the "Lost Learner" and give the "Pro Learner" more <span className="highlight">learning independence.</span></p>
                <div className="img-wrap">
                   <img src={'./assets/west-arete/course-map.jpg'} alt="course map" className='img-shadow'/>
                </div>
 
-               <h5>Quiz Summary</h5>
+               <h5>Quiz summary</h5>
                <h6>A summary of questions a student "mastered" as well as which questions they answered correctly and incorrectly</h6>
                <p>When clicked, each question has a description of the answers. The main goal of this page is to help both learners to be <span className="highlight">actively involved in and informed about their learning process.</span></p>
                <div className="img-wrap">
@@ -165,9 +165,9 @@ export default function WestArete(){
 
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <section className='case-study-section'>
-            <h4>Design Progression</h4>
+            <h4>Design progression</h4>
             <div className='right'>
-               <h5>A Different LMS</h5>
+               <h5>A different LMS</h5>
                <p>I often heard the feedback that the UI should look different from a traditional LMS. Executing this was a practice in knowing when to use familiar, established design patterns, and when we should stray from those (and more importantly why). The evolution of hifis demonstrates the progression from traditional LMS to a strategically unique design.</p>
                <div className="img-wrap">
                   <img src={'./assets/west-arete/hifi-process.jpg'} alt="hifi design progression" className='img-shadow'/>
@@ -182,7 +182,7 @@ export default function WestArete(){
                <div className='right'>
                   <h5>Learnings</h5>
                   <p>For this project, our clients' expertise lay largely in research, so I often needed to justify my design decisions, as I favored a user-friendly interface over detailed data visualizations. Being prepared to reason with our clients and make compromises when necessary was extremely valuable, and I found that my extensive critiquing experience really helped with this process. Transforming a broad, grandiose concept into a concrete interface and flow was also great experience, and required a lot of discipline from our end.</p>
-                  <h5>Next Time...</h5>
+                  <h5>Next time...</h5>
                   <p>This being my first client project, I learned how important it is to be responsive to clients. Our clients were particularly enthusiastic and would complete the "homework" we asked them to do and then some, so at a point our team wasn't keeping up with the clients' updated documents. If I were to do this over, I'd reign in the design process until I was completely certain of the clients' expectations in order to make better usage of everyone's time.</p>
             </div>
          </section>
