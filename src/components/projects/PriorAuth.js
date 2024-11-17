@@ -185,48 +185,10 @@ export default function PriorAuth(){
             <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
             <section className='case-study-section'>
                <h4 id='final-designs'>Final&nbsp;Designs</h4>
-               <div className='desktop-swiper-wrap'>
-                     <Swiper
-                        modules={[Navigation, Pagination]}
-                        spaceBetween={50}
-                        slidesPerView={1}
-                        navigation
-                        pagination={{ clickable: true }}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
-                     >
-                        <SwiperSlide>
-                           <div className='img-wrap'>
-                              <img src='./assets/search/final/desktop/empty-state.jpg' className='carousel-img-d img-shadow' alt="final search empty state desktop" />
-                           </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                           <div className='img-wrap'>
-                              <img src='./assets/search/final/desktop/suggestions.jpg' className='carousel-img-d img-shadow' alt="final search suggestions desktop" />
-                           </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                           <div className='img-wrap'>
-                              <img src='./assets/search/final/desktop/results-sub.jpg' className='carousel-img-d img-shadow' alt="final search sub results desktop" />
-                           </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                           <div className='img-wrap'>
-                              <img src='./assets/search/final/desktop/results-store.jpg' className='carousel-img-d img-shadow' alt="final search store results desktop" />
-                           </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                           <div className='img-wrap'>
-                              <img src='./assets/search/final/desktop/results-diy-blog.jpg' className='carousel-img-d img-shadow' alt="final search diy/blog results desktop" />
-                           </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                           <div className='img-wrap'>
-                              <img src='./assets/search/final/desktop/results-help-more.jpg' className='carousel-img-d img-shadow' alt="final search help/more results desktop" />
-                           </div>
-                        </SwiperSlide>
-                     </Swiper>
-                  </div>
+               <div className='final-designs-iframe-wrap'>
+                  <p>Note: some screens omitted for prototype simplicity.</p>
+                  <iframe className='final-designs-iframe' src="https://embed.figma.com/proto/pr6CzP6CJaXrOyJKgXuhvk/Prior-auth-final-designs-(condensed)?node-id=1-4794&node-type=frame&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A4794&embed-host=share" allowFullScreen></iframe>
+               </div>
             </section>
             </ScrollAnimation>
 
