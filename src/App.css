@@ -754,6 +754,12 @@ a{
     padding-right: 3rem;
   }
 
+  .proj-img-wrap:has(.right-img){
+    width: 160%;
+    align-self: flex-start;
+    padding-left: 3rem;
+  }
+
   .search{
     padding-top: 2rem;
   }
@@ -888,6 +894,10 @@ a{
 @media screen and (max-width: 620px) {
   .proj-header-text{
     width: max-content;
+  }
+
+  .long-title{
+    width: min-content;
   }
   
   .proj-header-text-sm{

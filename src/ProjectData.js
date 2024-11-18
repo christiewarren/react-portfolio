@@ -4,7 +4,7 @@ export default[
       description: 'A robust and flexible data entry flow for recording prior auth request outcomes',
       image: 'priorauth/priorauth.png',
       wrapClass: 'priorauth',
-      imgClass: 'proj-img',
+      imgClass: 'proj-img img-shadow right-img',
       tags: ['case study'],
       path: '/prior-authorizations'
    },
@@ -22,7 +22,7 @@ export default[
       description: 'Mobile and desktop navigation with clear hierarchy and better brand alignment',
       image: 'home/nav-redesign.png',
       wrapClass: 'nav-redesign',
-      imgClass: 'proj-img nav',
+      imgClass: 'proj-img nav right-img',
       tags: ['case study'],
       path: '/nav-redesign'
    },

@@ -19,7 +19,7 @@ export default function PriorAuth(){
       <div className='progress-bar-wrap'><ProgressBar bgcolor='#8A96FF'/></div>
       <div className='proj-header'>
          <div className='proj-header-text'>
-            <h1>Prior Authorization Requests</h1>
+            <h1 className='long-title'>Prior Authorization Requests</h1>
             <h2>@Alma</h2>
             <div className='proj-header-text-sm'>
                <p>
