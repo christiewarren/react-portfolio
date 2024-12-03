@@ -427,6 +427,8 @@ a{
   transform: translateY(6rem);
   opacity: 0;
   animation: welcomeFadeIn 1.2s ease 0.25s forwards;
+  z-index: -1;
+  position: relative;
 }
 
 .welcome-highlight{
@@ -434,20 +436,24 @@ a{
   background: linear-gradient(90deg, rgba(255,249,170,0.75) 0%, rgba(192,246,255,0.75) 50%, rgba(222,209,255,0.75) 100%);  
   border-radius: 5px;
   padding: 0 5px;
+  letter-spacing: normal;
   /* border: 1px solid var(--navy); */
 }
 
 .currently{
   border-top: 1px solid var(--navy);
-  width: max-content;
+  width: 100%;
   padding-right: 5rem;
   margin-top: 4rem;
+  background: var(--light-gray);
+  background-color: var(--light-gray)
+  
 }
 
 .currently p{
   margin-top: 0rem;
   color: var(--light-blue);
-  font-size: 0.8rem;
+  font-size: .95rem;
   color: var(--navy);
 }
 

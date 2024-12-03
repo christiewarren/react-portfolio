@@ -20,7 +20,7 @@ export default function Resume(){
          <ScrollAnimation animateIn="animate__fadeInUp-New" duration={1} animateOnce={true} delay={0}>
          <div className='resume-wrap'>
 
-            <iframe src={'./assets/christie-warren-resume2023.pdf'} className='resume' />
+            <iframe src={'./assets/christie-warren-resume2024.pdf'} className='resume' />
             </div>
          </ScrollAnimation>
       <Footer/>
