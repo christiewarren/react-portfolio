@@ -278,7 +278,7 @@ export default function PriorAuth(){
                      <small>An example of the annotations I made throughout the flow for engineering handoff</small>
                   </div>
                   <p>Since the steps of this flow can be tricky to learn, I also wrote blurbs to contextualize what the user's actions and goals are at each stage.</p>
-                  <p>At the initial handoff point, I recorded a walkthrough (I &#128155; Loom) of the designs and the workflow diagram in addition to doing a live walkthrough/Q&A with the engineers.</p>
+                  <p>At the initial handoff point, I recorded a walkthrough <span id='loom-is-the-best'>(I &#128155; Loom)</span> of the designs and the workflow diagram in addition to doing a live walkthrough/Q&A with the engineers.</p>
                   <p>I created a weekly project sync for updates, design q's and implementation discussions, and we continue to maintain a tight communication loop through Figma comments and Slack as questions come up during implementation.</p>
                   <h5>Scoping</h5>
                   <p>My PM and I worked together early on to define 3 milestones for this project, considering what a large design and engineering effort it would be. Each milestone could stand on its own and would make progress toward an ideal state.</p>
